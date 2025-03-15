@@ -33,6 +33,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
+      - name: Create unique user-data-dir
+        run: |
+          rm -rf ${{ github.workspace }}/chrome-user-data-${{ github.run_id }} # Удалить старую директорию данных
+          mkdir -p ${{ github.workspace }}/chrome-user-data-${{ github.run_id }} # Создать новую директорию данных
+
       - name: Run tests
         run: mvn test
         env:
