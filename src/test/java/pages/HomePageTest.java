@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class HomePageTest {
 
 @Test
-    public void testProductsMenu1(){
+    public void testProductsMenu(){
 
     WebDriver driver = new ChromeDriver();
     driver.get("https://automationexercise.com/");
