@@ -36,4 +36,5 @@ jobs:
       - name: Run tests
         run: mvn test
         env:
-          CHROME_OPTIONS: "--remote-allow-origins=* --disable-gpu --no-sandbox --headless --disable-dev-shm-usage --window-size=1920,1080 --user-data-dir=${{ github.workspace }}/chrome-user-data"
+          # Создаём уникальную директорию для каждого запуска с использованием временной метки
+          CHROME_OPTIONS: "--remote-allow-origins=* --disable-gpu --no-sandbox --headless --disable-dev-shm-usage --window-size=1920,1080 --user-data-dir=${{ github.workspace }}/chrome-user-data-${{ github.run_id }}"
