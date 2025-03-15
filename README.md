@@ -34,7 +34,7 @@ To run the tests locally, you need to have the following tools installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/web-ecommerce-automation.git
+   git clone https://github.com/alevtinasemeniuk/web-ecommerce-automation.git
 2. Install dependencies using Maven:
 
     ```bash
