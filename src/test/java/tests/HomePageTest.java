@@ -8,7 +8,7 @@ import runner.BaseTest;
 public class HomePageTest extends BaseTest {
 
     @Test
-    public void testClickProducts111(){
+    public void testClickProducts(){
 
         String text = new HomePage(getDriver())
                 .clickProducts()
