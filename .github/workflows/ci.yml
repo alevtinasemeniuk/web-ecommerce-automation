@@ -23,5 +23,8 @@ jobs:
           java-version: '17'
           cache: 'maven'
 
-      - name: Get list of changed files
-        run: echo "LIST_OF_CHANGED_FILES=$(git diff --name-only origin/$GITHUB_HEAD_REF $(git merge-base origin/$GITHUB_HEAD_REF origin/main) | tr '\n' ';')" >> $GITHUB_ENV
+      - name: Maven test
+        run: mvn test
+        env:
+          CHROME_OPTIONS: --remote-allow-origins=* --disable-gpu --no-sandbox --disable-dev-shm-usage --headless=new --window-size=1920,1080
+          CI_RUN: true
