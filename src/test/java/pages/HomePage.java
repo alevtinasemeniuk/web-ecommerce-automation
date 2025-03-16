@@ -7,6 +7,8 @@ import pages.base.BasePage;
 
 public class HomePage extends BasePage {
 
+
+
     @FindBy(xpath = "//ul[contains(@class, 'nav')]//a[@href='/']")
     private WebElement homeMenu;
 
