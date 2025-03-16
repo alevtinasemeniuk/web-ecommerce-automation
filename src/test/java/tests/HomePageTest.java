@@ -9,7 +9,6 @@ public class HomePageTest extends BaseTest {
 
     @Test
     public void testClickProducts(){
-
         String text = new HomePage(getDriver())
                 .clickProducts()
                 .getAllCategoriesTitle()
