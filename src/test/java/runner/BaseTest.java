@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import java.time.Duration;
 
 public class BaseTest {
-    protected WebDriver driver;
+    private WebDriver driver;
     private WebDriverWait wait5;
 
     @BeforeMethod
@@ -22,14 +22,9 @@ public class BaseTest {
 
         ChromeOptions options = new ChromeOptions();
 
-        // Проверяем, если мы находимся в CI/CD (например, на GitHub Actions)
         String ciEnv = System.getenv("CI");
         if (ciEnv != null && ciEnv.equals("true")) {
-            // В CI включаем headless режим
-            options.addArguments("--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage", "--window-size=1920x1080");
-        } else {
-            // На локальной машине используем обычный браузер
-            // options.addArguments("--headless"); // Оставляем без этой опции для локальной работы
+            options.addArguments("--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
         }
 
         driver = new ChromeDriver(options);
