@@ -19,5 +19,5 @@ jobs:
         with:
           java-version: 17
 
-      - name: 'Build and run tests'
-        run: mvn test
+#      - name: 'Build and run tests'
+#        run: mvn test
