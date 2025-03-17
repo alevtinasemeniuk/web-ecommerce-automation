@@ -14,7 +14,7 @@ public class HomePageTest extends BaseTest {
                 .getAllCategoriesTitle()
                 .toLowerCase();
 
-        Assert.assertEquals(text, "all product");
+        Assert.assertEquals(text, "all products");
     }
 
 }
