@@ -22,16 +22,17 @@ public class BaseTest {
 
         ChromeOptions options = new ChromeOptions();
 
-        String ciEnv = System.getenv("CI");
-        if (ciEnv != null && ciEnv.equals("true")) {
-            options.addArguments("--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
+        String ciRun = System.getenv("CI_RUN");
+        String chromeOptions = System.getenv("CHROME_OPTIONS");
+
+        if (ciRun != null && ciRun.equals("true") && chromeOptions != null) {
+            options.addArguments(chromeOptions.split(" "));
+        } else {
+            options.addArguments("--start-maximized");
         }
 
         driver = new ChromeDriver(options);
-
-        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
         driver.get("https://automationexercise.com/");
     }
 
