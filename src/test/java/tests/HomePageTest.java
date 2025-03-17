@@ -8,13 +8,13 @@ import runner.BaseTest;
 public class HomePageTest extends BaseTest {
 
     @Test
-    public void testClickProducts123(){
+    public void testClickProducts(){
         String text = new HomePage(getDriver())
                 .clickProducts()
                 .getAllCategoriesTitle()
                 .toLowerCase();
 
-        Assert.assertEquals(text, "all products");
+        Assert.assertEquals(text, "all product");
     }
 
 }
