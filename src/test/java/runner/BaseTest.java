@@ -28,7 +28,7 @@ public class BaseTest {
         if (ciRun != null && ciRun.equals("true") && chromeOptions != null) {
             options.addArguments(chromeOptions.split(" "));
         } else {
-            options.addArguments("--start-maximized");
+            options.addArguments("--window-size=1920x1080");
         }
 
         driver = new ChromeDriver(options);
