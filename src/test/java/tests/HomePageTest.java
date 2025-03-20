@@ -13,6 +13,7 @@ public class HomePageTest extends BaseTest {
                 .clickProducts()
                 .getAllCategoriesTitle()
                 .toLowerCase();
+
         Assert.assertEquals(text, "all products");
     }
 
@@ -22,6 +23,7 @@ public class HomePageTest extends BaseTest {
                 .clickCart()
                 .getCartBreadCrumb()
                 .toLowerCase();
+
         Assert.assertEquals(cartBreadCrumbText, "shopping cart");
     }
 
