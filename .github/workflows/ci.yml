@@ -29,7 +29,7 @@ jobs:
         run: mvn test -B
         env:
           CI: true
-          CHROME_OPTIONS: "--headless --disable-gpu --no-sandbox --disable-dev-shm-usage --window-size=1920x1080"
+          CHROME_OPTIONS: --headless --disable-gpu --no-sandbox --disable-dev-shm-usage --window-size=1920x1080
 
       - name: Upload test reports
         if: always()
