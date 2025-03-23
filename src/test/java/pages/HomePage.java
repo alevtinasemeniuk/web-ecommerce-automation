@@ -16,6 +16,15 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//div[@class='col-sm-8']//a[@href='/view_cart']")
     private WebElement cartMenu;
 
+    @FindBy(xpath = "//div[@class='col-sm-8']//a[@href='/login']")
+    private WebElement loginMenu;
+
+    @FindBy(xpath = "//a[contains(@href, 'youtube')]")
+    private WebElement videoMenu;
+
+    @FindBy(xpath = "//a[@href='/contact_us']")
+    private WebElement contactUsMenu;
+
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -30,5 +39,18 @@ public class HomePage extends BasePage {
         return new CartPage(getDriver());
     }
 
+    public LoginPage clickLogin(){
+        loginMenu.click();
+        return new LoginPage(getDriver());
+    }
+
+    public void clickVideoTutorials() {
+        videoMenu.click();
+    }
+
+    public ContactUsPage clickContactUs(){
+        contactUsMenu.click();
+        return new ContactUsPage(getDriver());
+    }
 
 }
