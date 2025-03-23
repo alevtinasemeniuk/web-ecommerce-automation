@@ -1,20 +1,50 @@
 [ {
-  "uid" : "b9d2802eb7adc68c",
-  "name" : "testClickProductsInMenu",
+  "uid" : "1b56f628553f44db",
+  "name" : "testClickVideoTutorialsMenu",
   "time" : {
-    "start" : 1742768405017,
-    "stop" : 1742768405730,
-    "duration" : 713
+    "start" : 1742773365354,
+    "stop" : 1742773373508,
+    "duration" : 8154
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "65c0dc0be10bda70",
+  "uid" : "b599f0becdc6f10f",
+  "name" : "testClickContactUsMenu",
+  "time" : {
+    "start" : 1742773358912,
+    "stop" : 1742773359845,
+    "duration" : 933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "febbcb977a2af1cf",
   "name" : "testClickCartInMenu",
   "time" : {
-    "start" : 1742768403046,
-    "stop" : 1742768403638,
-    "duration" : 592
+    "start" : 1742773356362,
+    "stop" : 1742773356983,
+    "duration" : 621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b13566f2fe2ea18c",
+  "name" : "testClickLoginMenu",
+  "time" : {
+    "start" : 1742773361136,
+    "stop" : 1742773361647,
+    "duration" : 511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c349c0c63971ea05",
+  "name" : "testClickProductsInMenu",
+  "time" : {
+    "start" : 1742773363112,
+    "stop" : 1742773363825,
+    "duration" : 713
   },
   "status" : "passed",
   "severity" : "normal"

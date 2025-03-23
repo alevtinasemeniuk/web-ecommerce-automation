@@ -1,22 +1,24 @@
 {
-  "uid" : "b9d2802eb7adc68c",
-  "name" : "testClickProductsInMenu",
-  "fullName" : "tests.HomePageTest.testClickProductsInMenu",
-  "historyId" : "77b08c721336f0081c00ebf007641079",
+  "uid" : "1b56f628553f44db",
+  "name" : "testClickVideoTutorialsMenu",
+  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
+  "historyId" : "72758180bfba04bc166a8f06214d9cb6",
   "time" : {
-    "start" : 1742768405017,
-    "stop" : 1742768405730,
-    "duration" : 713
+    "start" : 1742773365354,
+    "stop" : 1742773373508,
+    "duration" : 8154
   },
+  "description" : "Check that the YouTube page openes after clicking Video Tutorials in the menu",
+  "descriptionHtml" : "<p>Check that the YouTube page openes after clicking Video Tutorials in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1742768403730,
-      "stop" : 1742768405015,
-      "duration" : 1285
+      "start" : 1742773363900,
+      "stop" : 1742773365352,
+      "duration" : 1452
     },
     "description" : "",
     "status" : "passed",
@@ -31,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742768405741,
-      "stop" : 1742768405816,
-      "duration" : 75
+      "start" : 1742773373509,
+      "stop" : 1742773373589,
+      "duration" : 80
     },
     "description" : "",
     "status" : "passed",
@@ -53,7 +55,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickProductsInMenu"
+    "value" : "testClickVideoTutorialsMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -65,10 +67,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1361-911"
+    "value" : "fv-az1720-42"
   }, {
     "name" : "thread",
-    "value" : "2323@fv-az1361-911.main(1)"
+    "value" : "2310@fv-az1720-42.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -89,6 +91,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b9d2802eb7adc68c.json",
+  "source" : "1b56f628553f44db.json",
   "parameterValues" : [ ]
 }
