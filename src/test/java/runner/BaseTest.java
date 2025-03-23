@@ -26,7 +26,7 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         String ci = System.getenv("CI");
         String chromeOpts = System.getenv("CHROME_OPTIONS");
-        if (ci.equals("true") && chromeOpts != null) {
+        if ( ci != null && ci.equals("true")) {
             options.addArguments(chromeOpts.split("\\s+"));
         }
         else {
