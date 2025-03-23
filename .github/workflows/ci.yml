@@ -4,27 +4,36 @@ on:
   pull_request:
     branches:
       - main
+  push:
+    branches:
+      - main
 
 jobs:
-  run-test:
-    name: 'Run tests'
+  run-tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Git clone
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
         with:
-          fetch-depth: 0
+          distribution: corretto
+          java-version: 17
+          cache: maven
 
-      - name: Install JDK
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'corretto'
-          java-version: '17'
-          cache: 'maven'
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
 
-      - name: Maven test
-        run: mvn test
+      - name: Run tests
+        run: mvn test -B
         env:
+          CI: "true"
           CHROME_OPTIONS: "--headless --disable-gpu --no-sandbox --disable-dev-shm-usage --window-size=1920x1080"
-          CI_RUN: true
+
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: target/surefire-reports/*.xml
