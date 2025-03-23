@@ -43,13 +43,34 @@
 
     <build>
         <plugins>
-            <!-- Плагин для генерации Allure-отчёта -->
+            <!-- Allure Report Plugin -->
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
                 <version>2.11.2</version>
+                <configuration>
+                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
-
+    <profiles>
+        <profile>
+            <id>with-allure-dir</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <argLine>-Dallure.results.directory=${project.build.directory}/allure-results</argLine>
+            </properties>
+        </profile>
+    </profiles>
 </project>

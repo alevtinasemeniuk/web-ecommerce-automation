@@ -37,3 +37,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Allure output folders
+allure-results/
+.allure/
+target/allure-results/
+target/site/allure-maven-plugin/
