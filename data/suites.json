@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "tests.HomePageTest",
+        "children" : [ {
+          "name" : "testClickCartInMenu",
+          "uid" : "4cdd137c75052d7f",
+          "parentUid" : "0d8cf82c0019047a4d1b79fea3a81ec1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1742766728972,
+            "stop" : 1742766729634,
+            "duration" : 662
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testClickProductsInMenu",
+          "uid" : "1f7daf960602c3b6",
+          "parentUid" : "0d8cf82c0019047a4d1b79fea3a81ec1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1742766731100,
+            "stop" : 1742766732028,
+            "duration" : 928
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0d8cf82c0019047a4d1b79fea3a81ec1"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

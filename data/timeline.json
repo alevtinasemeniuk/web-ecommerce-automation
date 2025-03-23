@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "fv-az802-87",
+    "children" : [ {
+      "name" : "2307@fv-az802-87.main(1)",
+      "children" : [ {
+        "name" : "testClickProductsInMenu",
+        "uid" : "1f7daf960602c3b6",
+        "parentUid" : "ef731a8fc53f562dd019afd59a2074e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742766731100,
+          "stop" : 1742766732028,
+          "duration" : 928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickCartInMenu",
+        "uid" : "4cdd137c75052d7f",
+        "parentUid" : "ef731a8fc53f562dd019afd59a2074e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742766728972,
+          "stop" : 1742766729634,
+          "duration" : 662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef731a8fc53f562dd019afd59a2074e1"
+    } ],
+    "uid" : "87e18b4a94ce88250a6010fed1a602eb"
+  } ]
+}

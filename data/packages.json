@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.HomePageTest",
+    "children" : [ {
+      "name" : "testClickCartInMenu",
+      "uid" : "4cdd137c75052d7f",
+      "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742766728972,
+        "stop" : 1742766729634,
+        "duration" : 662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testClickProductsInMenu",
+      "uid" : "1f7daf960602c3b6",
+      "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742766731100,
+        "stop" : 1742766732028,
+        "duration" : 928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.HomePageTest"
+  } ]
+}

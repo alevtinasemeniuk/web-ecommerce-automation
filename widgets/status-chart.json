@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1f7daf960602c3b6",
+  "name" : "testClickProductsInMenu",
+  "time" : {
+    "start" : 1742766731100,
+    "stop" : 1742766732028,
+    "duration" : 928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cdd137c75052d7f",
+  "name" : "testClickCartInMenu",
+  "time" : {
+    "start" : 1742766728972,
+    "stop" : 1742766729634,
+    "duration" : 662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
