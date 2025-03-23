@@ -7,11 +7,11 @@ on:
     branches: [main]
 
 jobs:
-  run-tests:
+  run-tests-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Clone repository
         uses: actions/checkout@v4
 
       - name: Set up Java 17
@@ -32,31 +32,11 @@ jobs:
           CI: true
           CHROME_OPTIONS: --headless --disable-gpu --no-sandbox --disable-dev-shm-usage --window-size=1920x1080
 
-#      - name: Upload Allure report as artifact
-#        if: always()
-#        uses: actions/upload-artifact@v4
-#        with:
-#          name: allure-report
-#          path: target/site/allure-maven-plugin
-
-  deploy-report:
-    if: github.ref == 'refs/heads/main'
-    needs: run-tests
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Download Allure report artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-report
-          path: site
-
-      - name: Deploy to GitHub Pages
+      - name: Deploy Allure report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: site
+          publish_dir: target/site/allure-maven-plugin
           publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
