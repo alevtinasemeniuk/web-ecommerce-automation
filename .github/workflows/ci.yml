@@ -31,9 +31,9 @@ jobs:
           CI: true
           CHROME_OPTIONS: --headless --disable-gpu --no-sandbox --disable-dev-shm-usage --window-size=1920x1080
 
-      - name: Upload test reports
+      - name: Upload Allure report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-results
-          path: target/surefire-reports/*.xml
+          name: allure-report
+          path: target/site/allure-maven-plugin
