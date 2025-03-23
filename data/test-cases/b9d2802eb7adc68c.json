@@ -1,12 +1,12 @@
 {
-  "uid" : "4cdd137c75052d7f",
-  "name" : "testClickCartInMenu",
-  "fullName" : "tests.HomePageTest.testClickCartInMenu",
-  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
+  "uid" : "b9d2802eb7adc68c",
+  "name" : "testClickProductsInMenu",
+  "fullName" : "tests.HomePageTest.testClickProductsInMenu",
+  "historyId" : "77b08c721336f0081c00ebf007641079",
   "time" : {
-    "start" : 1742766728972,
-    "stop" : 1742766729634,
-    "duration" : 662
+    "start" : 1742768405017,
+    "stop" : 1742768405730,
+    "duration" : 713
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1742766717032,
-      "stop" : 1742766728913,
-      "duration" : 11881
+      "start" : 1742768403730,
+      "stop" : 1742768405015,
+      "duration" : 1285
     },
     "description" : "",
     "status" : "passed",
@@ -31,9 +31,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742766729644,
-      "stop" : 1742766729727,
-      "duration" : 83
+      "start" : 1742768405741,
+      "stop" : 1742768405816,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -53,7 +53,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickCartInMenu"
+    "value" : "testClickProductsInMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -65,10 +65,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az802-87"
+    "value" : "fv-az1361-911"
   }, {
     "name" : "thread",
-    "value" : "2307@fv-az802-87.main(1)"
+    "value" : "2323@fv-az1361-911.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -89,6 +89,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4cdd137c75052d7f.json",
+  "source" : "b9d2802eb7adc68c.json",
   "parameterValues" : [ ]
 }

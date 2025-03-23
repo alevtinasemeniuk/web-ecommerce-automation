@@ -1,20 +1,20 @@
 [ {
-  "uid" : "4cdd137c75052d7f",
-  "name" : "testClickCartInMenu",
+  "uid" : "b9d2802eb7adc68c",
+  "name" : "testClickProductsInMenu",
   "time" : {
-    "start" : 1742766728972,
-    "stop" : 1742766729634,
-    "duration" : 662
+    "start" : 1742768405017,
+    "stop" : 1742768405730,
+    "duration" : 713
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1f7daf960602c3b6",
-  "name" : "testClickProductsInMenu",
+  "uid" : "65c0dc0be10bda70",
+  "name" : "testClickCartInMenu",
   "time" : {
-    "start" : 1742766731100,
-    "stop" : 1742766732028,
-    "duration" : 928
+    "start" : 1742768403046,
+    "stop" : 1742768403638,
+    "duration" : 592
   },
   "status" : "passed",
   "severity" : "normal"
