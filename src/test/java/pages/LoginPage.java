@@ -14,7 +14,7 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
-    public WebElement getSignUpButton() {
-        return signUpButton;
+    public boolean isOnLoginPage() {
+        return signUpButton.isDisplayed();
     }
 }

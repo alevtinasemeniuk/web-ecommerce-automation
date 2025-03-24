@@ -14,8 +14,9 @@ public class ProductsPage extends BasePage {
         super(driver);
     }
 
-    public String getAllCategoriesTitle() {
-        return allProductsTitle.getText();
+    public boolean isOnProductsPage() {
+        return allProductsTitle.isDisplayed()
+                && allProductsTitle.getText().toLowerCase().equals("all products");
     }
 
 

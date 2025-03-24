@@ -14,8 +14,9 @@ public class ContactUsPage extends BasePage {
         super(driver);
     }
 
-    public String getContactUsTitle() {
-        return contactUsTitle.getText();
+    public boolean isOnContactUsPage() {
+        return contactUsTitle.isDisplayed()
+                && contactUsTitle.getText().toLowerCase().equals("contact us");
     }
 
 }
