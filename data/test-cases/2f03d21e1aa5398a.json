@@ -1,12 +1,12 @@
 {
-  "uid" : "81848361c903fedc",
+  "uid" : "2f03d21e1aa5398a",
   "name" : "testClickContactUsMenu",
   "fullName" : "tests.HomePageTest.testClickContactUsMenu",
   "historyId" : "2d3edd627be7ad36d03249b06819fd94",
   "time" : {
-    "start" : 1742853997886,
-    "stop" : 1742853998684,
-    "duration" : 798
+    "start" : 1742854068112,
+    "stop" : 1742854068676,
+    "duration" : 564
   },
   "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
   "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "initPage",
+    "name" : "setUp",
     "time" : {
-      "start" : 1742853997884,
-      "stop" : 1742853997884,
-      "duration" : 0
+      "start" : 1742854066837,
+      "stop" : 1742854068109,
+      "duration" : 1272
     },
     "description" : "",
     "status" : "passed",
@@ -30,11 +30,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "setUp",
+    "name" : "initPage",
     "time" : {
-      "start" : 1742853996502,
-      "stop" : 1742853997882,
-      "duration" : 1380
+      "start" : 1742854068110,
+      "stop" : 1742854068110,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742853998686,
-      "stop" : 1742853998761,
+      "start" : 1742854068678,
+      "stop" : 1742854068753,
       "duration" : 75
     },
     "description" : "",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1288-351"
+    "value" : "fv-az1370-826"
   }, {
     "name" : "thread",
-    "value" : "2318@fv-az1288-351.main(1)"
+    "value" : "2317@fv-az1370-826.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "81848361c903fedc.json",
+  "source" : "2f03d21e1aa5398a.json",
   "parameterValues" : [ ]
 }
