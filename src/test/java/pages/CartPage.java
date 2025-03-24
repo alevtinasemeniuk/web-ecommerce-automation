@@ -18,8 +18,9 @@ public class CartPage extends BasePage {
         super(driver);
     }
 
-    public String getCartBreadCrumb(){
-        return cartBreadCrumb.getText();
+    public boolean isOnCartPage(){
+        return cartBreadCrumb.isDisplayed()
+                && cartBreadCrumb.getText().toLowerCase().equals("shopping cart");
     }
 
 }
