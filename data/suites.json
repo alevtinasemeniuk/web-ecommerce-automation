@@ -9,65 +9,65 @@
         "name" : "tests.HomePageTest",
         "children" : [ {
           "name" : "testClickCartInMenu",
-          "uid" : "febbcb977a2af1cf",
+          "uid" : "eafb88d3a1b4be2f",
           "parentUid" : "0d8cf82c0019047a4d1b79fea3a81ec1",
           "status" : "passed",
           "time" : {
-            "start" : 1742773356362,
-            "stop" : 1742773356983,
-            "duration" : 621
+            "start" : 1742853995830,
+            "stop" : 1742853996414,
+            "duration" : 584
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "testClickContactUsMenu",
-          "uid" : "b599f0becdc6f10f",
+          "uid" : "81848361c903fedc",
           "parentUid" : "0d8cf82c0019047a4d1b79fea3a81ec1",
           "status" : "passed",
           "time" : {
-            "start" : 1742773358912,
-            "stop" : 1742773359845,
-            "duration" : 933
+            "start" : 1742853997886,
+            "stop" : 1742853998684,
+            "duration" : 798
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "testClickLoginMenu",
-          "uid" : "b13566f2fe2ea18c",
+          "uid" : "274edf8d7fd7f328",
           "parentUid" : "0d8cf82c0019047a4d1b79fea3a81ec1",
           "status" : "passed",
           "time" : {
-            "start" : 1742773361136,
-            "stop" : 1742773361647,
-            "duration" : 511
+            "start" : 1742853999742,
+            "stop" : 1742854000209,
+            "duration" : 467
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "testClickProductsInMenu",
-          "uid" : "c349c0c63971ea05",
+          "uid" : "9fa9870b92318218",
           "parentUid" : "0d8cf82c0019047a4d1b79fea3a81ec1",
           "status" : "passed",
           "time" : {
-            "start" : 1742773363112,
-            "stop" : 1742773363825,
-            "duration" : 713
+            "start" : 1742854002227,
+            "stop" : 1742854003504,
+            "duration" : 1277
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "testClickVideoTutorialsMenu",
-          "uid" : "1b56f628553f44db",
+          "uid" : "7fc8585806d2c337",
           "parentUid" : "0d8cf82c0019047a4d1b79fea3a81ec1",
           "status" : "passed",
           "time" : {
-            "start" : 1742773365354,
-            "stop" : 1742773373508,
-            "duration" : 8154
+            "start" : 1742854004556,
+            "stop" : 1742854015017,
+            "duration" : 10461
           },
           "flaky" : false,
           "newFailed" : false,

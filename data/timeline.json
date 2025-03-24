@@ -2,77 +2,77 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "fv-az1720-42",
+    "name" : "fv-az1288-351",
     "children" : [ {
-      "name" : "2310@fv-az1720-42.main(1)",
+      "name" : "2318@fv-az1288-351.main(1)",
       "children" : [ {
-        "name" : "testClickContactUsMenu",
-        "uid" : "b599f0becdc6f10f",
-        "parentUid" : "ca2bd518f01c5f9b2bfc3f4cb17998e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1742773358912,
-          "stop" : 1742773359845,
-          "duration" : 933
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "testClickProductsInMenu",
-        "uid" : "c349c0c63971ea05",
-        "parentUid" : "ca2bd518f01c5f9b2bfc3f4cb17998e7",
+        "uid" : "9fa9870b92318218",
+        "parentUid" : "d12d6e1c7a52a6721ef0d07ea489e94d",
         "status" : "passed",
         "time" : {
-          "start" : 1742773363112,
-          "stop" : 1742773363825,
-          "duration" : 713
+          "start" : 1742854002227,
+          "stop" : 1742854003504,
+          "duration" : 1277
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "testClickVideoTutorialsMenu",
-        "uid" : "1b56f628553f44db",
-        "parentUid" : "ca2bd518f01c5f9b2bfc3f4cb17998e7",
+        "name" : "testClickContactUsMenu",
+        "uid" : "81848361c903fedc",
+        "parentUid" : "d12d6e1c7a52a6721ef0d07ea489e94d",
         "status" : "passed",
         "time" : {
-          "start" : 1742773365354,
-          "stop" : 1742773373508,
-          "duration" : 8154
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "testClickCartInMenu",
-        "uid" : "febbcb977a2af1cf",
-        "parentUid" : "ca2bd518f01c5f9b2bfc3f4cb17998e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1742773356362,
-          "stop" : 1742773356983,
-          "duration" : 621
+          "start" : 1742853997886,
+          "stop" : 1742853998684,
+          "duration" : 798
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "testClickLoginMenu",
-        "uid" : "b13566f2fe2ea18c",
-        "parentUid" : "ca2bd518f01c5f9b2bfc3f4cb17998e7",
+        "uid" : "274edf8d7fd7f328",
+        "parentUid" : "d12d6e1c7a52a6721ef0d07ea489e94d",
         "status" : "passed",
         "time" : {
-          "start" : 1742773361136,
-          "stop" : 1742773361647,
-          "duration" : 511
+          "start" : 1742853999742,
+          "stop" : 1742854000209,
+          "duration" : 467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickVideoTutorialsMenu",
+        "uid" : "7fc8585806d2c337",
+        "parentUid" : "d12d6e1c7a52a6721ef0d07ea489e94d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742854004556,
+          "stop" : 1742854015017,
+          "duration" : 10461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickCartInMenu",
+        "uid" : "eafb88d3a1b4be2f",
+        "parentUid" : "d12d6e1c7a52a6721ef0d07ea489e94d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742853995830,
+          "stop" : 1742853996414,
+          "duration" : 584
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ca2bd518f01c5f9b2bfc3f4cb17998e7"
+      "uid" : "d12d6e1c7a52a6721ef0d07ea489e94d"
     } ],
-    "uid" : "1c1b7e024f1f92eecda8fc268cf6dbcc"
+    "uid" : "02f16f75e3b6d5eb3b433617e36432f3"
   } ]
 }
