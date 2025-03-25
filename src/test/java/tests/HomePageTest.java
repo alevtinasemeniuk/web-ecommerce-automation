@@ -60,7 +60,7 @@ public class HomePageTest extends BaseTest {
 
     @Test
     @Description("Check that the YouTube page opens after clicking Video Tutorials in the menu")
-    public void testClickVideoTutorialsMenu() {
+    public void testClickVideoTutorialsMenu1() {
         homepage.clickVideoTutorials();
 
         WebElement youTubeNameChannel = wait(3).until(ExpectedConditions
