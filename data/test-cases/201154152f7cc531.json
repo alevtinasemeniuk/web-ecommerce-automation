@@ -1,12 +1,12 @@
 {
-  "uid" : "e49996f84bb46f0d",
+  "uid" : "201154152f7cc531",
   "name" : "testClickProductsInMenu",
   "fullName" : "tests.HomePageTest.testClickProductsInMenu",
   "historyId" : "77b08c721336f0081c00ebf007641079",
   "time" : {
-    "start" : 1742854072505,
-    "stop" : 1742854073957,
-    "duration" : 1452
+    "start" : 1742873539950,
+    "stop" : 1742873540702,
+    "duration" : 752
   },
   "description" : "Check that the PLP opens after clicking Products in the menu",
   "descriptionHtml" : "<p>Check that the PLP opens after clicking Products in the menu</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "initPage",
     "time" : {
-      "start" : 1742854072503,
-      "stop" : 1742854072503,
-      "duration" : 0
+      "start" : 1742873539948,
+      "stop" : 1742873539949,
+      "duration" : 1
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1742854070373,
-      "stop" : 1742854072502,
-      "duration" : 2129
+      "start" : 1742873538702,
+      "stop" : 1742873539947,
+      "duration" : 1245
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742854073958,
-      "stop" : 1742854074032,
-      "duration" : 74
+      "start" : 1742873540703,
+      "stop" : 1742873540776,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1370-826"
+    "value" : "fv-az1392-162"
   }, {
     "name" : "thread",
-    "value" : "2317@fv-az1370-826.main(1)"
+    "value" : "2336@fv-az1392-162.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e49996f84bb46f0d.json",
+  "source" : "201154152f7cc531.json",
   "parameterValues" : [ ]
 }

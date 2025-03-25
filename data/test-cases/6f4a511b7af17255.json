@@ -1,24 +1,24 @@
 {
-  "uid" : "2f03d21e1aa5398a",
-  "name" : "testClickContactUsMenu",
-  "fullName" : "tests.HomePageTest.testClickContactUsMenu",
-  "historyId" : "2d3edd627be7ad36d03249b06819fd94",
+  "uid" : "6f4a511b7af17255",
+  "name" : "testClickCartInMenu",
+  "fullName" : "tests.HomePageTest.testClickCartInMenu",
+  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
   "time" : {
-    "start" : 1742854068112,
-    "stop" : 1742854068676,
-    "duration" : 564
+    "start" : 1742873533542,
+    "stop" : 1742873534260,
+    "duration" : 718
   },
-  "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
-  "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
+  "description" : "Check that the Cart page opens after clicking Cart in the menu",
+  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1742854066837,
-      "stop" : 1742854068109,
-      "duration" : 1272
+      "start" : 1742873522194,
+      "stop" : 1742873533475,
+      "duration" : 11281
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "initPage",
     "time" : {
-      "start" : 1742854068110,
-      "stop" : 1742854068110,
-      "duration" : 0
+      "start" : 1742873533512,
+      "stop" : 1742873533524,
+      "duration" : 12
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742854068678,
-      "stop" : 1742854068753,
-      "duration" : 75
+      "start" : 1742873534268,
+      "stop" : 1742873534348,
+      "duration" : 80
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickContactUsMenu"
+    "value" : "testClickCartInMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1370-826"
+    "value" : "fv-az1392-162"
   }, {
     "name" : "thread",
-    "value" : "2317@fv-az1370-826.main(1)"
+    "value" : "2336@fv-az1392-162.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2f03d21e1aa5398a.json",
+  "source" : "6f4a511b7af17255.json",
   "parameterValues" : [ ]
 }
