@@ -15,8 +15,7 @@ public class ContactUsPage extends BasePage {
     }
 
     public boolean isOnContactUsPage() {
-        return contactUsTitle.isDisplayed()
-                && contactUsTitle.getText().toLowerCase().equals("contact us");
+        return isDisplayed(contactUsTitle);
     }
 
 }

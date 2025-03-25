@@ -15,8 +15,7 @@ public class ProductsPage extends BasePage {
     }
 
     public boolean isOnProductsPage() {
-        return allProductsTitle.isDisplayed()
-                && allProductsTitle.getText().toLowerCase().equals("all products");
+        return isDisplayed(allProductsTitle);
     }
 
 

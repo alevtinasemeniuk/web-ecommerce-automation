@@ -30,27 +30,27 @@ public class HomePage extends BasePage {
     }
 
     public ProductsPage clickProducts(){
-        productsMenu.click();
-        return new ProductsPage(getDriver());
+        click(productsMenu);
+        return new ProductsPage(driver);
     }
 
     public CartPage clickCart(){
-        cartMenu.click();
-        return new CartPage(getDriver());
+        click(cartMenu);
+        return new CartPage(driver);
     }
 
     public LoginPage clickLogin(){
-        loginMenu.click();
-        return new LoginPage(getDriver());
+        click(loginMenu);
+        return new LoginPage(driver);
     }
 
     public void clickVideoTutorials() {
-        videoMenu.click();
+        click(videoMenu);
     }
 
     public ContactUsPage clickContactUs(){
-        contactUsMenu.click();
-        return new ContactUsPage(getDriver());
+        click(contactUsMenu);
+        return new ContactUsPage(driver);
     }
 
 }

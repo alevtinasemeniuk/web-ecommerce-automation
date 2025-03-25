@@ -15,6 +15,6 @@ public class LoginPage extends BasePage {
     }
 
     public boolean isOnLoginPage() {
-        return signUpButton.isDisplayed();
+        return isDisplayed(signUpButton);
     }
 }

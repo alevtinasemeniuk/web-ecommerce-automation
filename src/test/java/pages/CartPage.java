@@ -19,8 +19,7 @@ public class CartPage extends BasePage {
     }
 
     public boolean isOnCartPage(){
-        return cartBreadCrumb.isDisplayed()
-                && cartBreadCrumb.getText().toLowerCase().equals("shopping cart");
+        return isDisplayed(cartBreadCrumb);
     }
 
 }
