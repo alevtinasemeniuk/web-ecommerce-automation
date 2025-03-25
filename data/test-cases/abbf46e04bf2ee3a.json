@@ -1,23 +1,23 @@
 {
-  "uid" : "a96eff7932fad572",
-  "name" : "testClickVideoTutorialsMenu1",
-  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu1",
-  "historyId" : "9cbbd96a0994b51dda9b1e7ac5cb0ce3",
+  "uid" : "abbf46e04bf2ee3a",
+  "name" : "testClickContactUsMenu",
+  "fullName" : "tests.HomePageTest.testClickContactUsMenu",
+  "historyId" : "2d3edd627be7ad36d03249b06819fd94",
   "time" : {
-    "start" : 1742873542055,
-    "stop" : 1742873551846,
-    "duration" : 9791
+    "start" : 1742938696326,
+    "stop" : 1742938697039,
+    "duration" : 713
   },
-  "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
-  "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
+  "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
+  "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "initPage",
     "time" : {
-      "start" : 1742873542053,
-      "stop" : 1742873542053,
+      "start" : 1742938696324,
+      "stop" : 1742938696324,
       "duration" : 0
     },
     "description" : "",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1742873540777,
-      "stop" : 1742873542052,
-      "duration" : 1275
+      "start" : 1742938695035,
+      "stop" : 1742938696323,
+      "duration" : 1288
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742873551847,
-      "stop" : 1742873551927,
-      "duration" : 80
+      "start" : 1742938697041,
+      "stop" : 1742938697116,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickVideoTutorialsMenu1"
+    "value" : "testClickContactUsMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1392-162"
+    "value" : "fv-az1280-199"
   }, {
     "name" : "thread",
-    "value" : "2336@fv-az1392-162.main(1)"
+    "value" : "2319@fv-az1280-199.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a96eff7932fad572.json",
+  "source" : "abbf46e04bf2ee3a.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "acd41f1566b0fa4d",
+  "uid" : "3b7f3368aec0d471",
   "name" : "testClickLoginMenu",
   "fullName" : "tests.HomePageTest.testClickLoginMenu",
   "historyId" : "4606f1943defddaf89ddd3ac836346d6",
   "time" : {
-    "start" : 1742873538113,
-    "stop" : 1742873538624,
-    "duration" : 511
+    "start" : 1742938698439,
+    "stop" : 1742938699211,
+    "duration" : 772
   },
   "description" : "Check that the Sign Up button appears after clicking Signup/Login in the menu",
   "descriptionHtml" : "<p>Check that the Sign Up button appears after clicking Signup/Login in the menu</p>\n",
@@ -16,8 +16,8 @@
   "beforeStages" : [ {
     "name" : "initPage",
     "time" : {
-      "start" : 1742873538110,
-      "stop" : 1742873538111,
+      "start" : 1742938698436,
+      "stop" : 1742938698437,
       "duration" : 1
     },
     "description" : "",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1742873536923,
-      "stop" : 1742873538109,
-      "duration" : 1186
+      "start" : 1742938697118,
+      "stop" : 1742938698435,
+      "duration" : 1317
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742873538626,
-      "stop" : 1742873538701,
-      "duration" : 75
+      "start" : 1742938699212,
+      "stop" : 1742938699288,
+      "duration" : 76
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1392-162"
+    "value" : "fv-az1280-199"
   }, {
     "name" : "thread",
-    "value" : "2336@fv-az1392-162.main(1)"
+    "value" : "2319@fv-az1280-199.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "acd41f1566b0fa4d.json",
+  "source" : "3b7f3368aec0d471.json",
   "parameterValues" : [ ]
 }
