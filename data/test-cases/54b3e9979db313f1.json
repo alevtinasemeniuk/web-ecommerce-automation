@@ -1,23 +1,23 @@
 {
-  "uid" : "3b7f3368aec0d471",
-  "name" : "testClickLoginMenu",
-  "fullName" : "tests.HomePageTest.testClickLoginMenu",
-  "historyId" : "4606f1943defddaf89ddd3ac836346d6",
+  "uid" : "54b3e9979db313f1",
+  "name" : "testClickVideoTutorialsMenu",
+  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
+  "historyId" : "72758180bfba04bc166a8f06214d9cb6",
   "time" : {
-    "start" : 1742938698439,
-    "stop" : 1742938699211,
-    "duration" : 772
+    "start" : 1742938869451,
+    "stop" : 1742938871399,
+    "duration" : 1948
   },
-  "description" : "Check that the Sign Up button appears after clicking Signup/Login in the menu",
-  "descriptionHtml" : "<p>Check that the Sign Up button appears after clicking Signup/Login in the menu</p>\n",
+  "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
+  "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "initPage",
     "time" : {
-      "start" : 1742938698436,
-      "stop" : 1742938698437,
+      "start" : 1742938869448,
+      "stop" : 1742938869449,
       "duration" : 1
     },
     "description" : "",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1742938697118,
-      "stop" : 1742938698435,
-      "duration" : 1317
+      "start" : 1742938868100,
+      "stop" : 1742938869447,
+      "duration" : 1347
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742938699212,
-      "stop" : 1742938699288,
-      "duration" : 76
+      "start" : 1742938871400,
+      "stop" : 1742938871482,
+      "duration" : 82
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickLoginMenu"
+    "value" : "testClickVideoTutorialsMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1280-199"
+    "value" : "fv-az2249-808"
   }, {
     "name" : "thread",
-    "value" : "2319@fv-az1280-199.main(1)"
+    "value" : "2382@fv-az2249-808.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3b7f3368aec0d471.json",
+  "source" : "54b3e9979db313f1.json",
   "parameterValues" : [ ]
 }
