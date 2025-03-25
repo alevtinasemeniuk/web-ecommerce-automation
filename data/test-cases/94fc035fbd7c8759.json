@@ -1,24 +1,24 @@
 {
-  "uid" : "89f0ea83bc533327",
-  "name" : "testClickContactUsMenu",
-  "fullName" : "tests.HomePageTest.testClickContactUsMenu",
-  "historyId" : "2d3edd627be7ad36d03249b06819fd94",
+  "uid" : "94fc035fbd7c8759",
+  "name" : "testClickProductsInMenu",
+  "fullName" : "tests.HomePageTest.testClickProductsInMenu",
+  "historyId" : "77b08c721336f0081c00ebf007641079",
   "time" : {
-    "start" : 1742938862926,
-    "stop" : 1742938863884,
-    "duration" : 958
+    "start" : 1742938933133,
+    "stop" : 1742938933895,
+    "duration" : 762
   },
-  "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
-  "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
+  "description" : "Check that the PLP opens after clicking Products in the menu",
+  "descriptionHtml" : "<p>Check that the PLP opens after clicking Products in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1742938861222,
-      "stop" : 1742938862923,
-      "duration" : 1701
+      "start" : 1742938932118,
+      "stop" : 1742938933129,
+      "duration" : 1011
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "initPage",
     "time" : {
-      "start" : 1742938862924,
-      "stop" : 1742938862924,
-      "duration" : 0
+      "start" : 1742938933130,
+      "stop" : 1742938933131,
+      "duration" : 1
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742938863885,
-      "stop" : 1742938863958,
-      "duration" : 73
+      "start" : 1742938933896,
+      "stop" : 1742938933975,
+      "duration" : 79
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickContactUsMenu"
+    "value" : "testClickProductsInMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az2249-808"
+    "value" : "fv-az1046-586"
   }, {
     "name" : "thread",
-    "value" : "2382@fv-az2249-808.main(1)"
+    "value" : "2368@fv-az1046-586.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "89f0ea83bc533327.json",
+  "source" : "94fc035fbd7c8759.json",
   "parameterValues" : [ ]
 }

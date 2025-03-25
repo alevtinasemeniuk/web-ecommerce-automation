@@ -1,24 +1,24 @@
 {
-  "uid" : "92bb6d7c69321ec0",
-  "name" : "testClickCartInMenu",
-  "fullName" : "tests.HomePageTest.testClickCartInMenu",
-  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
+  "uid" : "f2c7db9a825bc2aa",
+  "name" : "testClickContactUsMenu",
+  "fullName" : "tests.HomePageTest.testClickContactUsMenu",
+  "historyId" : "2d3edd627be7ad36d03249b06819fd94",
   "time" : {
-    "start" : 1742938860169,
-    "stop" : 1742938861125,
-    "duration" : 956
+    "start" : 1742938929557,
+    "stop" : 1742938930257,
+    "duration" : 700
   },
-  "description" : "Check that the Cart page opens after clicking Cart in the menu",
-  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
+  "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
+  "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setUp",
+    "name" : "initPage",
     "time" : {
-      "start" : 1742938856787,
-      "stop" : 1742938860091,
-      "duration" : 3304
+      "start" : 1742938929555,
+      "stop" : 1742938929555,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -30,11 +30,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "initPage",
+    "name" : "setUp",
     "time" : {
-      "start" : 1742938860134,
-      "stop" : 1742938860148,
-      "duration" : 14
+      "start" : 1742938928256,
+      "stop" : 1742938929554,
+      "duration" : 1298
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742938861134,
-      "stop" : 1742938861219,
-      "duration" : 85
+      "start" : 1742938930259,
+      "stop" : 1742938930333,
+      "duration" : 74
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickCartInMenu"
+    "value" : "testClickContactUsMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az2249-808"
+    "value" : "fv-az1046-586"
   }, {
     "name" : "thread",
-    "value" : "2382@fv-az2249-808.main(1)"
+    "value" : "2368@fv-az1046-586.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "92bb6d7c69321ec0.json",
+  "source" : "f2c7db9a825bc2aa.json",
   "parameterValues" : [ ]
 }
