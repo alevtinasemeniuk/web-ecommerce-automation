@@ -1,11 +1,15 @@
 package runner;
 
+import org.checkerframework.checker.units.qual.C;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import runner.utils.Config;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -16,23 +20,30 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver(buildChromeOptions());
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.get("https://automationexercise.com/");
-    }
+        boolean isCi = Boolean.parseBoolean(System.getenv("CI"));
+        String browser = Config.get("browser");
 
-    private ChromeOptions buildChromeOptions() {
-        ChromeOptions options = new ChromeOptions();
-        String ci = System.getenv("CI");
-        String chromeOpts = System.getenv("CHROME_OPTIONS");
-        if ( ci != null && ci.equals("true")) {
-            options.addArguments(chromeOpts.split("\\s+"));
+        String optionsString = browser.equalsIgnoreCase("chrome") ?
+                (isCi ? Config.get("chrome.options.ci") : Config.get("chrome.options.local")) :
+                (isCi ? Config.get("firefox.options.ci") : Config.get("firefox.options.local"));
+
+        if (browser.equalsIgnoreCase("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments(optionsString.split("\\s+"));
+            driver = new ChromeDriver(chromeOptions);
+        }
+        else if (browser.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            FirefoxOptions firefoxOptions = new FirefoxOptions();
+            firefoxOptions.addArguments(optionsString.split("\\s+"));
+            driver = new FirefoxDriver(firefoxOptions);
         }
         else {
-            options.addArguments("--window-size=1920x1080");
+            throw new RuntimeException("Property 'browser' is missing in config.properties");
         }
-        return options;
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+        driver.get(Config.get("base.url"));
     }
 
     @AfterMethod
