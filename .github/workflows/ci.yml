@@ -7,18 +7,19 @@ on:
     branches: [main]
 
 jobs:
-  run-tests-and-deploy:
+  run-tests:
+    name: Run Tests & Publish Reports
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Java 17
+      - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
-          distribution: 'corretto'
-          java-version: '17'
+          distribution: corretto
+          java-version: 17
           cache: maven
 
       - name: Install Google Chrome
@@ -26,13 +27,28 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
 
-      - name: Run tests and generate Allure report
+      - name: Run TestNG tests & generate Allure
         run: mvn clean test verify -B
         env:
-          CI: true
-          CHROME_OPTIONS: --headless --disable-gpu --no-sandbox --disable-dev-shm-usage --window-size=1920x1080
+          CI: "true"
+          browser: "chrome"
 
-      - name: Deploy Allure report to GitHub Pages
+      - name: Upload TestNG XML reports
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: testng-reports
+          path: target/surefire-reports/*.xml
+
+      - name: Upload Allure raw results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: target/allure-results
+
+      - name: Deploy Allure HTML report to GitHub Pages
+        if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
