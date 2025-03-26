@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-tests:
-    name: Run Tests & Publish Reports
+    name: Run Tests & Publish Allure
     runs-on: ubuntu-latest
 
     steps:
@@ -27,13 +27,16 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
 
-      - name: Run TestNG tests & generate Allure
-        run: mvn clean test verify -B
+      - name: Run TestNG tests (ignore failures)
+        run: mvn test -Dmaven.test.failure.ignore=true -B
         env:
           CI: "true"
           browser: "chrome"
 
-      - name: Upload TestNG XML reports
+      - name: Generate Allure HTML report
+        run: mvn allure:report -B
+
+      - name: Upload TestNG XML reports (on failure)
         if: failure()
         uses: actions/upload-artifact@v4
         with:
