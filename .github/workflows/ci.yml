@@ -8,7 +8,6 @@ on:
 
 jobs:
   run-tests:
-    name: Run Tests & Publish Allure
     runs-on: ubuntu-latest
 
     steps:
@@ -27,14 +26,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
 
-      - name: Run TestNG tests (ignore failures)
-        run: mvn test -Dmaven.test.failure.ignore=true -B
+      - name: Run TestNG tests & generate Allure
+        run: mvn clean verify -Dmaven.test.failure.ignore=true -B
         env:
           CI: "true"
           browser: "chrome"
-
-      - name: Generate Allure HTML report
-        run: mvn allure:report -B
 
       - name: Upload TestNG XML reports (on failure)
         if: failure()
@@ -49,6 +45,14 @@ jobs:
         with:
           name: allure-results
           path: target/allure-results
+
+      - name: Fail job if tests failed
+        if: always()
+        run: |
+          if grep -R "<failure" target/surefire-reports/*.xml; then
+            echo "::error ::Detected test failures!"
+            exit 1
+          fi
 
       - name: Deploy Allure HTML report to GitHub Pages
         if: always()
