@@ -1,12 +1,12 @@
 {
-  "uid" : "f2f4ef16147e492",
+  "uid" : "5b4eb450f71aa26",
   "name" : "testClickCartInMenu",
   "fullName" : "tests.HomePageTest.testClickCartInMenu",
   "historyId" : "aa35b861195015e30e18f1a30dd66b81",
   "time" : {
-    "start" : 1742938927439,
-    "stop" : 1742938928166,
-    "duration" : 727
+    "start" : 1743028843941,
+    "stop" : 1743028844558,
+    "duration" : 617
   },
   "description" : "Check that the Cart page opens after clicking Cart in the menu",
   "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setUp",
+    "name" : "initPage",
     "time" : {
-      "start" : 1742938919086,
-      "stop" : 1742938927363,
-      "duration" : 8277
+      "start" : 1743028843911,
+      "stop" : 1743028843922,
+      "duration" : 11
     },
     "description" : "",
     "status" : "passed",
@@ -30,11 +30,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "initPage",
+    "name" : "setUp",
     "time" : {
-      "start" : 1742938927406,
-      "stop" : 1742938927419,
-      "duration" : 13
+      "start" : 1743028841084,
+      "stop" : 1743028843871,
+      "duration" : 2787
     },
     "description" : "",
     "status" : "passed",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742938928174,
-      "stop" : 1742938928253,
+      "start" : 1743028844565,
+      "stop" : 1743028844644,
       "duration" : 79
     },
     "description" : "",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1046-586"
+    "value" : "fv-az1701-882"
   }, {
     "name" : "thread",
-    "value" : "2368@fv-az1046-586.main(1)"
+    "value" : "2383@fv-az1701-882.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f2f4ef16147e492.json",
+  "source" : "5b4eb450f71aa26.json",
   "parameterValues" : [ ]
 }

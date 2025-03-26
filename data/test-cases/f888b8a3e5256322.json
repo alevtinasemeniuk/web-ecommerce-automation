@@ -1,12 +1,12 @@
 {
-  "uid" : "f2c7db9a825bc2aa",
+  "uid" : "f888b8a3e5256322",
   "name" : "testClickContactUsMenu",
   "fullName" : "tests.HomePageTest.testClickContactUsMenu",
   "historyId" : "2d3edd627be7ad36d03249b06819fd94",
   "time" : {
-    "start" : 1742938929557,
-    "stop" : 1742938930257,
-    "duration" : 700
+    "start" : 1743028846078,
+    "stop" : 1743028846703,
+    "duration" : 625
   },
   "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
   "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "initPage",
+    "name" : "setUp",
     "time" : {
-      "start" : 1742938929555,
-      "stop" : 1742938929555,
-      "duration" : 0
+      "start" : 1743028844646,
+      "stop" : 1743028846075,
+      "duration" : 1429
     },
     "description" : "",
     "status" : "passed",
@@ -30,11 +30,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "setUp",
+    "name" : "initPage",
     "time" : {
-      "start" : 1742938928256,
-      "stop" : 1742938929554,
-      "duration" : 1298
+      "start" : 1743028846076,
+      "stop" : 1743028846076,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1742938930259,
-      "stop" : 1742938930333,
-      "duration" : 74
+      "start" : 1743028846705,
+      "stop" : 1743028846778,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1046-586"
+    "value" : "fv-az1701-882"
   }, {
     "name" : "thread",
-    "value" : "2368@fv-az1046-586.main(1)"
+    "value" : "2383@fv-az1701-882.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f2c7db9a825bc2aa.json",
+  "source" : "f888b8a3e5256322.json",
   "parameterValues" : [ ]
 }
