@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.HomePageTest",
+    "children" : [ {
+      "name" : "testClickCartInMenu",
+      "uid" : "6ba99400c1b7d140",
+      "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743029784667,
+        "stop" : 1743029785313,
+        "duration" : 646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testClickContactUsMenu",
+      "uid" : "1a93106a7e2dc0c8",
+      "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1743029786828,
+        "stop" : 1743029786858,
+        "duration" : 30
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testClickLoginMenu",
+      "uid" : "7eaf3a30709220e1",
+      "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743029788600,
+        "stop" : 1743029789517,
+        "duration" : 917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testClickProductsInMenu",
+      "uid" : "a894a163a0111bac",
+      "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743029791036,
+        "stop" : 1743029792172,
+        "duration" : 1136
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testClickVideoTutorialsMenu",
+      "uid" : "d36600b0246b1038",
+      "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743029793784,
+        "stop" : 1743029803862,
+        "duration" : 10078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.HomePageTest"
+  } ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "fv-az1657-856",
+    "children" : [ {
+      "name" : "2345@fv-az1657-856.main(1)",
+      "children" : [ {
+        "name" : "testClickLoginMenu",
+        "uid" : "7eaf3a30709220e1",
+        "parentUid" : "c5644c77378ee2991ecc109800e62ae6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1743029788600,
+          "stop" : 1743029789517,
+          "duration" : 917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickProductsInMenu",
+        "uid" : "a894a163a0111bac",
+        "parentUid" : "c5644c77378ee2991ecc109800e62ae6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1743029791036,
+          "stop" : 1743029792172,
+          "duration" : 1136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickVideoTutorialsMenu",
+        "uid" : "d36600b0246b1038",
+        "parentUid" : "c5644c77378ee2991ecc109800e62ae6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1743029793784,
+          "stop" : 1743029803862,
+          "duration" : 10078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickContactUsMenu",
+        "uid" : "1a93106a7e2dc0c8",
+        "parentUid" : "c5644c77378ee2991ecc109800e62ae6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1743029786828,
+          "stop" : 1743029786858,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickCartInMenu",
+        "uid" : "6ba99400c1b7d140",
+        "parentUid" : "c5644c77378ee2991ecc109800e62ae6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1743029784667,
+          "stop" : 1743029785313,
+          "duration" : 646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5644c77378ee2991ecc109800e62ae6"
+    } ],
+    "uid" : "c09cd271b465fffe56196da17b61694f"
+  } ]
+}
