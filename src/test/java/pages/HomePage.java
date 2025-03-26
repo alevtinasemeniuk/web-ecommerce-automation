@@ -22,7 +22,7 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//a[contains(@href, 'youtube')]")
     private WebElement videoMenu;
 
-    @FindBy(xpath = "//a[@href='/contact_us']")
+    @FindBy(xpath = "-//a[@href='/contact_us']")
     private WebElement contactUsMenu;
 
     public HomePage(WebDriver driver) {
