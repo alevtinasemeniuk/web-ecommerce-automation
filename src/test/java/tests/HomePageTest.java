@@ -16,7 +16,7 @@ public class HomePageTest extends BaseTest {
 
     @BeforeMethod
     public void initPage() {
-       homepage = new HomePage(getDriver());
+       homepage = new HomePage(driver);
     }
 
     @Test
