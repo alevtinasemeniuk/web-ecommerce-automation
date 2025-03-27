@@ -13,7 +13,7 @@ import runner.utils.Config;
 
 import java.time.Duration;
 
-public class BaseTest {
+public abstract class BaseTest {
     protected WebDriver driver;
 
     @BeforeMethod
