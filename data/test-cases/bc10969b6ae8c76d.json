@@ -1,24 +1,24 @@
 {
-  "uid" : "4652f941c35675ec",
-  "name" : "testClickContactUsMenu",
-  "fullName" : "tests.HomePageTest.testClickContactUsMenu",
-  "historyId" : "2d3edd627be7ad36d03249b06819fd94",
+  "uid" : "bc10969b6ae8c76d",
+  "name" : "testClickLoginMenu",
+  "fullName" : "tests.HomePageTest.testClickLoginMenu",
+  "historyId" : "4606f1943defddaf89ddd3ac836346d6",
   "time" : {
-    "start" : 1743034864812,
-    "stop" : 1743034865519,
-    "duration" : 707
+    "start" : 1743034913487,
+    "stop" : 1743034914111,
+    "duration" : 624
   },
-  "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
-  "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
+  "description" : "Check that the Sign Up button appears after clicking Signup/Login in the menu",
+  "descriptionHtml" : "<p>Check that the Sign Up button appears after clicking Signup/Login in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1743034863521,
-      "stop" : 1743034864809,
-      "duration" : 1288
+      "start" : 1743034912163,
+      "stop" : 1743034913483,
+      "duration" : 1320
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "initPage",
     "time" : {
-      "start" : 1743034864810,
-      "stop" : 1743034864810,
-      "duration" : 0
+      "start" : 1743034913484,
+      "stop" : 1743034913485,
+      "duration" : 1
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1743034865522,
-      "stop" : 1743034865596,
-      "duration" : 74
+      "start" : 1743034914112,
+      "stop" : 1743034914185,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickContactUsMenu"
+    "value" : "testClickLoginMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1909-347"
+    "value" : "fv-az2214-695"
   }, {
     "name" : "thread",
-    "value" : "2323@fv-az1909-347.main(1)"
+    "value" : "2309@fv-az2214-695.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4652f941c35675ec.json",
+  "source" : "bc10969b6ae8c76d.json",
   "parameterValues" : [ ]
 }

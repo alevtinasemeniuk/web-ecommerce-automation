@@ -1,12 +1,12 @@
 {
-  "uid" : "1622f08c92901083",
+  "uid" : "8487e357b88d82a1",
   "name" : "testClickVideoTutorialsMenu",
   "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
   "historyId" : "72758180bfba04bc166a8f06214d9cb6",
   "time" : {
-    "start" : 1743034870855,
-    "stop" : 1743034878068,
-    "duration" : 7213
+    "start" : 1743034917705,
+    "stop" : 1743034925468,
+    "duration" : 7763
   },
   "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
   "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "initPage",
+    "name" : "setUp",
     "time" : {
-      "start" : 1743034870853,
-      "stop" : 1743034870853,
-      "duration" : 0
+      "start" : 1743034916373,
+      "stop" : 1743034917702,
+      "duration" : 1329
     },
     "description" : "",
     "status" : "passed",
@@ -30,11 +30,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "setUp",
+    "name" : "initPage",
     "time" : {
-      "start" : 1743034869665,
-      "stop" : 1743034870852,
-      "duration" : 1187
+      "start" : 1743034917703,
+      "stop" : 1743034917703,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1743034878069,
-      "stop" : 1743034878153,
+      "start" : 1743034925469,
+      "stop" : 1743034925553,
       "duration" : 84
     },
     "description" : "",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1909-347"
+    "value" : "fv-az2214-695"
   }, {
     "name" : "thread",
-    "value" : "2323@fv-az1909-347.main(1)"
+    "value" : "2309@fv-az2214-695.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1622f08c92901083.json",
+  "source" : "8487e357b88d82a1.json",
   "parameterValues" : [ ]
 }
