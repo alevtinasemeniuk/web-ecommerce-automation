@@ -3,65 +3,65 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "testClickCartInMenu",
-    "uid" : "9f5004fc436060db",
+    "uid" : "52b1f1450c4cc5ea",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1743034909347,
-      "stop" : 1743034909950,
-      "duration" : 603
+      "start" : 1743034976433,
+      "stop" : 1743034977346,
+      "duration" : 913
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "testClickContactUsMenu",
-    "uid" : "85bd29e399b227ad",
+    "uid" : "7fb92a3013c78e65",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1743034911459,
-      "stop" : 1743034912086,
-      "duration" : 627
+      "start" : 1743034978846,
+      "stop" : 1743034979515,
+      "duration" : 669
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "testClickLoginMenu",
-    "uid" : "bc10969b6ae8c76d",
+    "uid" : "72495111006cbf91",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1743034913487,
-      "stop" : 1743034914111,
-      "duration" : 624
+      "start" : 1743034980946,
+      "stop" : 1743034981558,
+      "duration" : 612
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "testClickProductsInMenu",
-    "uid" : "eae9476c6bae3f9f",
+    "uid" : "b9e5a631ac08d4cb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1743034915518,
-      "stop" : 1743034916296,
-      "duration" : 778
+      "start" : 1743034982949,
+      "stop" : 1743034983634,
+      "duration" : 685
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "testClickVideoTutorialsMenu",
-    "uid" : "8487e357b88d82a1",
+    "uid" : "969574618f517a8a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1743034917705,
-      "stop" : 1743034925468,
-      "duration" : 7763
+      "start" : 1743034985214,
+      "stop" : 1743034987344,
+      "duration" : 2130
     },
     "flaky" : false,
     "newFailed" : false,
