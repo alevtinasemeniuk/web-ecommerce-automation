@@ -9,31 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "84b3c17d7eb05289",
+      "uid" : "f95128a0dc5e9243",
       "status" : "passed",
       "time" : {
-        "start" : 1743034223889,
-        "stop" : 1743034224519,
-        "duration" : 630
-      }
-    } ]
-  },
-  "77b08c721336f0081c00ebf007641079" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f88f71949ffed373",
-      "status" : "passed",
-      "time" : {
-        "start" : 1743034226013,
-        "stop" : 1743034226773,
-        "duration" : 760
+        "start" : 1743034374736,
+        "stop" : 1743034375441,
+        "duration" : 705
       }
     } ]
   },
@@ -47,12 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c928addc924c5b7",
+      "uid" : "4db8ce1c54e912c",
       "status" : "passed",
       "time" : {
-        "start" : 1743034219870,
-        "stop" : 1743034220634,
-        "duration" : 764
+        "start" : 1743034369978,
+        "stop" : 1743034370903,
+        "duration" : 925
+      }
+    } ]
+  },
+  "77b08c721336f0081c00ebf007641079" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b26fae58df3c2105",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743034376940,
+        "stop" : 1743034377610,
+        "duration" : 670
       }
     } ]
   },
@@ -66,32 +66,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e220a3f29b0641f2",
+      "uid" : "3d5e03823736f63c",
       "status" : "passed",
       "time" : {
-        "start" : 1743034228196,
-        "stop" : 1743034230697,
-        "duration" : 2501
+        "start" : 1743034379194,
+        "stop" : 1743034386316,
+        "duration" : 7122
       }
     } ]
   },
   "2d3edd627be7ad36d03249b06819fd94" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e33caf12c8063139",
-      "status" : "broken",
-      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression --//a[@href='/contact_us'] because of the following error:\nTypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.\n  (Session info: chrome=134.0.6998.165)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1021-azure', java.version: '17.0.14'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e0dc981d207ed00c2fd9f30794837819, findElement {using=xpath, value=--//a[@href='/contact_us']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.165, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35055}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35055/devtoo..., se:cdpVersion: 134.0.6998.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e0dc981d207ed00c2fd9f30794837819",
+      "uid" : "d5bb1386168d172a",
+      "status" : "passed",
       "time" : {
-        "start" : 1743034222288,
-        "stop" : 1743034222317,
-        "duration" : 29
+        "start" : 1743034372499,
+        "stop" : 1743034373220,
+        "duration" : 721
       }
     } ]
   }
