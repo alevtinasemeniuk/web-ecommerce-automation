@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "invalid selector: Unable to locate an element with the xpath expression -//a[@href='/contact_us'] because of the following error:\nTypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.\n  (Session info: chrome=134.0.6998.88)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1021-azure', java.version: '17.0.14'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9598467c44974cf4dc9b2493cf266a9a, findElement {value=-//a[@href='/contact_us'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.88, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36075/devtoo..., se:cdpVersion: 134.0.6998.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9598467c44974cf4dc9b2493cf266a9a",
-      "children" : [ {
-        "name" : "testClickContactUsMenu",
-        "uid" : "8ac8d41f08674cd7",
-        "parentUid" : "2dddcf050aa785a36988c79e317a7085",
-        "status" : "broken",
-        "time" : {
-          "start" : 1743033554065,
-          "stop" : 1743033554094,
-          "duration" : 29
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2dddcf050aa785a36988c79e317a7085"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }
