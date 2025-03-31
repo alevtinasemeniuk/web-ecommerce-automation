@@ -23,6 +23,6 @@ public static String generateUserName() {
         for (int i = 0; i < 5; i++) {
             email.append(random.nextInt(10)); // число от 0 до 9
         }
-       return email.toString() + "@qa.com";
+       return email + "@qa.com";
     }
 }
