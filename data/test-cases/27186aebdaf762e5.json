@@ -1,12 +1,12 @@
 {
-  "uid" : "7fb92a3013c78e65",
+  "uid" : "27186aebdaf762e5",
   "name" : "testClickContactUsMenu",
   "fullName" : "tests.HomePageTest.testClickContactUsMenu",
   "historyId" : "2d3edd627be7ad36d03249b06819fd94",
   "time" : {
-    "start" : 1743034978846,
-    "stop" : 1743034979515,
-    "duration" : 669
+    "start" : 1743392906476,
+    "stop" : 1743392907058,
+    "duration" : 582
   },
   "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
   "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
@@ -16,8 +16,8 @@
   "beforeStages" : [ {
     "name" : "initPage",
     "time" : {
-      "start" : 1743034978844,
-      "stop" : 1743034978844,
+      "start" : 1743392906474,
+      "stop" : 1743392906474,
       "duration" : 0
     },
     "description" : "",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1743034977440,
-      "stop" : 1743034978843,
-      "duration" : 1403
+      "start" : 1743392905334,
+      "stop" : 1743392906473,
+      "duration" : 1139
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1743034979517,
-      "stop" : 1743034979591,
-      "duration" : 74
+      "start" : 1743392907060,
+      "stop" : 1743392907135,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1674-423"
+    "value" : "fv-az1701-508"
   }, {
     "name" : "thread",
-    "value" : "2315@fv-az1674-423.main(1)"
+    "value" : "2303@fv-az1701-508.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7fb92a3013c78e65.json",
+  "source" : "27186aebdaf762e5.json",
   "parameterValues" : [ ]
 }
