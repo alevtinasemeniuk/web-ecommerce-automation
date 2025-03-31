@@ -85,6 +85,12 @@ public class CreateAccountPage extends BasePage {
         return this;
     }
 
+    public AccountPage clickCreateAccountButton() {
+        click(createAccountButton);
+        return new AccountPage(driver);
+    }
+
+
 
 
 
