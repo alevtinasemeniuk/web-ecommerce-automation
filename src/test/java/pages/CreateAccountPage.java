@@ -90,6 +90,10 @@ public class CreateAccountPage extends BasePage {
         return new AccountPage(driver);
     }
 
+    public boolean isOnCreateAccountPage() {
+        return isDisplayed(createAccountButton);
+    }
+
 
 
 
