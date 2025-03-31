@@ -20,6 +20,7 @@ public class RegistrationTest extends BaseTest {
                 .enterEmail(DataGenerator.generateUserEmail())
                 .clickSignupButton()
                 .isOnCreateAccountPage();
+
         Assert.assertTrue(result, "User is not on the Create Account Page");
     }
 
