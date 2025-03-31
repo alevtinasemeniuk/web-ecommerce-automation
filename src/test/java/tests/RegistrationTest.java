@@ -12,6 +12,7 @@ public class RegistrationTest extends BaseTest {
     @Description("Verify that user can register with valid data")
     public void testRegisterWithValidData() {
 
+
     }
 
 }

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.devtools.v85.page.Page;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -42,6 +43,20 @@ public abstract class BasePage {
             return false;
         }
     }
+
+    protected void selectFromDropdownByValue(WebElement dropdown, String value) {
+        Select select = new Select(dropdown);
+        select.selectByValue(value);
+    }
+
+    protected void selectFromDropdownByVisibleText(WebElement dropdown, String text) {
+        new Select(dropdown).selectByVisibleText(text);
+    }
+
+    protected void selectFromDropdownByIndex(WebElement dropdown, int index) {
+        new Select(dropdown).selectByIndex(index);
+    }
+
 
 
 

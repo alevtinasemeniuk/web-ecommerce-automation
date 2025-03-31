@@ -1,5 +1,7 @@
 package utils;
 
+import models.Month;
+
 import java.util.*;
 
 public class DataGenerator {
@@ -66,5 +68,31 @@ public class DataGenerator {
             email.append(random.nextInt(10)); // число от 0 до 9
         }
        return email + "@qa.com";
+    }
+
+    public static Month getRandomMonth() {
+        Month[] months = Month.values();
+        return months[random.nextInt(months.length)];
+    }
+
+    public static int getRandomDay() {
+        return random.nextInt(28) + 1; // от 1 до 28 включительно
+    }
+
+    public static int getRandomYear() {
+        return random.nextInt(2021 - 1900 + 1) + 1900; // от 1900 до 2021 включительно
+    }
+
+    public static String getRandomCountry() {
+        String[] countries = {
+                "India",
+                "United States",
+                "Canada",
+                "Australia",
+                "Israel",
+                "New Zealand",
+                "Singapore"
+        };
+        return countries[random.nextInt(countries.length)];
     }
 }
