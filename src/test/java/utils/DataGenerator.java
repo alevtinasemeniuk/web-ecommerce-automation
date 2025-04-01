@@ -111,7 +111,7 @@ public class DataGenerator {
     }
 
     public static String getRandomTitle() {
-        String[] titles = {"Mr", "Mrs"};
+        String[] titles = {"Mr.", "Mrs."};
         return titles[random.nextInt(2)];
     }
 }

@@ -12,7 +12,9 @@ public class AddressGenerator {
                 DataGenerator.generateRandomStreetAddress(),
                 DataGenerator.generateRandomAddress2(),
                 DataGenerator.getRandomCountry(),
+                DataGenerator.generateRandomWord(),
                 DataGenerator.generateRandomZipCode(),
+                DataGenerator.generateRandomWord(),
                 DataGenerator.generateRandomMobileNumber()
         );
     }

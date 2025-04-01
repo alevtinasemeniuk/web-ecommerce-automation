@@ -64,6 +64,45 @@ public class CreateAccountPage extends BasePage {
     @FindBy(css = "button[data-qa='create-account']")
     private WebElement createAccountButton;
 
+    public CreateAccountPage clickTitleRadioButton(String title) {
+        if ("Mr.".equalsIgnoreCase(title)) {
+            click(mrTitleRadioButton);
+        } else if ("Mrs.".equalsIgnoreCase(title)) {
+            click(mrsTitleRadioButton);
+        }
+        return this;
+    }
+
+    public CreateAccountPage enterPassword(String password) {
+        type(passwordField, password);
+        return this;
+    }
+
+    public CreateAccountPage enterFirstNameToAddressInfo(String firstName) {
+        type(firstNameField, firstName);
+        return this;
+    }
+
+    public CreateAccountPage enterLastNameToAddressInfo(String lastName) {
+        type(lastNameField, lastName);
+        return this;
+    }
+
+    public CreateAccountPage enterCompanyToAddressInfo(String companyName) {
+        type(companyField, companyName);
+        return this;
+    }
+
+    public CreateAccountPage enterAddress(String address) {
+        type(addressField, address);
+        return this;
+    }
+
+    public CreateAccountPage enterAddress2(String address2) {
+        type(address2Field, address2);
+        return this;
+    }
+
     public CreateAccountPage selectDay(int day) {
         selectFromDropdownByValue(dayDropdown, String.valueOf(day));
         return this;
@@ -90,14 +129,28 @@ public class CreateAccountPage extends BasePage {
         return new AccountPage(driver);
     }
 
+    public CreateAccountPage enterState(String state) {
+        type(stateField, state);
+        return this;
+    }
+
+    public CreateAccountPage enterCity(String city) {
+        type(cityField, city);
+        return this;
+    }
+
+    public CreateAccountPage enterZipCode(String zipCode) {
+        type(zipCodeField, zipCode);
+        return this;
+    }
+
+    public CreateAccountPage enterMobileNumber(String mobileNumber) {
+        type(mobileNumberField, mobileNumber);
+        return this;
+    }
+
     public boolean isOnCreateAccountPage() {
         return isDisplayed(createAccountButton);
     }
-
-
-
-
-
-
 
 }

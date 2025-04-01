@@ -9,15 +9,19 @@ public class Address {
     private String address2;
     private String country;
     private String zipCode;
+    private String city;
+    private String state;
     private String mobileNumber;
 
-    public Address(String firstName, String lastName, String company, String address, String address2, String country, String zipCode, String mobileNumber) {
+    public Address(String firstName, String lastName, String company, String address, String address2, String country, String state, String zipCode, String city, String mobileNumber) {
         this.firstName = firstName;
         this.mobileNumber = mobileNumber;
         this.company = company;
         this.lastName = lastName;
         this.zipCode = zipCode;
         this.country = country;
+        this.state = state;
+        this.city = city;
         this.address2 = address2;
         this.address = address;
     }
@@ -52,5 +56,13 @@ public class Address {
 
     public String getMobileNumber() {
         return mobileNumber;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public String getCity() {
+        return city;
     }
 }
