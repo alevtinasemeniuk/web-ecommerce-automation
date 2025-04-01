@@ -23,10 +23,6 @@ public class DataGenerator {
         return word.toString();
     }
 
-    public static String generateUserNickName() {
-        return generateRandomWord() + random.nextInt(1000);
-    }
-
     public static String generatePassword() {
         StringBuilder password = new StringBuilder();
         password.append(ALPHABET_UPPER.charAt(random.nextInt(ALPHABET_UPPER.length())));
@@ -37,14 +33,12 @@ public class DataGenerator {
         for (int i = 0; i < 6; i++) {
             password.append(ALL_CHARS.charAt(random.nextInt(ALL_CHARS.length())));
         }
-
         //Перемешиваем символы:
         List<Character> chars = new ArrayList<>();
         for (char c : password.toString().toCharArray()) {
             chars.add(c);
         }
         Collections.shuffle(chars);
-
         // Собираем обратно из листа в строку
         StringBuilder finalPassword = new StringBuilder();
         for (char c : chars) {
@@ -53,13 +47,13 @@ public class DataGenerator {
         return finalPassword.toString();
     }
 
-    public static String generateUserFullName() {
-        String word1 = generateRandomWord();
-        String word2 = generateRandomWord();
-        String firstName = word1.substring(0, 1).toUpperCase() + word1.substring(1);
-        String lastName = word2.substring(0, 1).toUpperCase() + word2.substring(1);
+    public static String generateRandomUserName() {
+        String word = generateRandomWord();
+        return  word.substring(0, 1).toUpperCase() + word.substring(1);
+    }
 
-        return firstName + " " + lastName;
+    public static String generateUserFullName() {
+        return generateRandomUserName() + " " + generateRandomUserName();
     }
 
     public static String generateUserEmail() {
@@ -94,5 +88,30 @@ public class DataGenerator {
                 "Singapore"
         };
         return countries[random.nextInt(countries.length)];
+    }
+
+    public static String generateRandomStreetAddress() {
+        return (random.nextInt(1000) + 1) + " " + generateRandomWord() + " " + "Street" ;
+    }
+
+    public static String generateRandomAddress2() {
+        return "apt № " + (random.nextInt(1000) + 1);
+    }
+
+    public static String generateRandomZipCode() {
+        return String.valueOf(random.nextInt(99999 - 10000 + 1) + 10000); //от 10000 до 99999
+    }
+
+    public static String generateRandomMobileNumber() {
+        StringBuilder phone = new StringBuilder();
+        for (int i = 0; i < 10; i++) {
+            phone.append(DIGITS.charAt(random.nextInt(DIGITS.length())));
+        }
+        return phone.toString();
+    }
+
+    public static String getRandomTitle() {
+        String[] titles = {"Mr.", "Mrs."};
+        return titles[random.nextInt(2)];
     }
 }
