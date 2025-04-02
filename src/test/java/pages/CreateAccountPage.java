@@ -1,12 +1,12 @@
 package pages;
 
 import models.Month;
+import models.User;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import pages.base.BasePage;
-import runner.utils.Config;
 
 public class CreateAccountPage extends BasePage {
     public CreateAccountPage(WebDriver driver) {
@@ -151,6 +151,29 @@ public class CreateAccountPage extends BasePage {
 
     public boolean isOnCreateAccountPage() {
         return isDisplayed(createAccountButton);
+    }
+
+    public CreateAccountPage fillInUserInfo(User user) {
+        clickTitleRadioButton(user.getTitle())
+                .enterPassword(user.getPassword())
+                .selectDay(user.getDay())
+                .selectMonth(user.getMonth())
+                .selectYear(user.getYear());
+        return this;
+    }
+
+    public CreateAccountPage fillInAddressInfo(User user) {
+        enterFirstNameToAddressInfo(user.getAddress().getFirstName())
+                .enterLastNameToAddressInfo(user.getFullNameName())
+                .enterCompanyToAddressInfo(user.getAddress().getCompany())
+                .enterAddress(user.getAddress().getAddress())
+                .enterAddress2(user.getAddress().getAddress2())
+                .selectCountry(user.getAddress().getCountry())
+                .enterState(user.getAddress().getState())
+                .enterCity(user.getAddress().getCity())
+                .enterZipCode(user.getAddress().getZipCode())
+                .enterMobileNumber(user.getAddress().getMobileNumber());
+        return this;
     }
 
 }
