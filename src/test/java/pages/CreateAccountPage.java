@@ -170,7 +170,7 @@ public class CreateAccountPage extends BasePage {
 
     public CreateAccountPage fillInAddressInfo(User user) {
         enterFirstNameToAddressInfo(user.getAddress().getFirstName())
-                .enterLastNameToAddressInfo(user.getFullName())
+                .enterLastNameToAddressInfo(user.getAddress().getLastName())
                 .enterCompanyToAddressInfo(user.getAddress().getCompany())
                 .enterAddress(user.getAddress().getAddress())
                 .enterAddress2(user.getAddress().getAddress2())
