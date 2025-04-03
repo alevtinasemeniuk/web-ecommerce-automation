@@ -43,12 +43,14 @@ public abstract class BasePage {
 
     protected boolean isDisplayed(WebElement element) {
         try {
-            return wait.until(ExpectedConditions.visibilityOf(element)).isDisplayed();
+            boolean visible = wait.until(ExpectedConditions.visibilityOf(element)).isDisplayed();
+            logger.info("Element is visible: {}", element);
+            return visible;
         } catch (TimeoutException e) {
+            logger.warn("Element is NOT visible within timeout: {}", element);
             return false;
         }
     }
-
     protected void selectFromDropdownByValue(WebElement dropdown, String value) {
         logger.info("Selecting value '{}' from dropdown: {}", value, dropdown);
         Select select = new Select(dropdown);
