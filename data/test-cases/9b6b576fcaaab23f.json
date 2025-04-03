@@ -1,24 +1,40 @@
 {
-  "uid" : "62269a649cf159da",
-  "name" : "testRegisterWithValidData",
-  "fullName" : "tests.RegistrationTest.testRegisterWithValidData",
-  "historyId" : "8be00ae83cb128889e79ca2dcc9d777b",
+  "uid" : "9b6b576fcaaab23f",
+  "name" : "testClickCartInMenu",
+  "fullName" : "tests.HomePageTest.testClickCartInMenu",
+  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
   "time" : {
-    "start" : 1743651571735,
-    "stop" : 1743651576751,
-    "duration" : 5016
+    "start" : 1743657293183,
+    "stop" : 1743657293786,
+    "duration" : 603
   },
-  "description" : "Verify that user can register with valid data",
-  "descriptionHtml" : "<p>Verify that user can register with valid data</p>\n",
+  "description" : "Check that the Cart page opens after clicking Cart in the menu",
+  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1743651569966,
-      "stop" : 1743651571733,
-      "duration" : 1767
+      "start" : 1743657291895,
+      "stop" : 1743657293180,
+      "duration" : 1285
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1743657293181,
+      "stop" : 1743657293181,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1743651576753,
-      "stop" : 1743651576828,
-      "duration" : 75
+      "start" : 1743657293788,
+      "stop" : 1743657293860,
+      "duration" : 72
     },
     "description" : "",
     "status" : "passed",
@@ -49,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRegisterWithValidData"
+    "value" : "testClickCartInMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -64,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az2249-230"
+    "value" : "fv-az1938-389"
   }, {
     "name" : "thread",
-    "value" : "2366@fv-az2249-230.main(1)"
+    "value" : "2286@fv-az1938-389.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -91,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "62269a649cf159da.json",
+  "source" : "9b6b576fcaaab23f.json",
   "parameterValues" : [ ]
 }
