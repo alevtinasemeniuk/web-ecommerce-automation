@@ -9,9 +9,8 @@ import pages.HomePage;
 import utils.DataGenerator;
 import utils.UserGenerator;
 
-import java.util.Random;
-
 public class RegistrationTest extends BaseTest {
+    private User testUser;
 
     @Test
     @Description("Verify that user is redirected to the Create Account Page")
@@ -29,19 +28,21 @@ public class RegistrationTest extends BaseTest {
     @Test
     @Description("Verify that user can register with valid data")
     public void testRegisterWithValidData() {
-        User testUser = UserGenerator.generateRandomUser();
+        testUser = UserGenerator.generateRandomUser();
 
         boolean result = new HomePage(driver)
                 .clickLogin()
-                .enterUserName(testUser.getFullNameName())
+                .enterUserName(testUser.getFullName())
                 .enterEmail(testUser.getEmail())
                 .clickSignupButton()
                 .fillInUserInfo(testUser)
+                .selectSignUpCheckbox()
+                .selectReceiveCheckbox()
                 .fillInAddressInfo(testUser)
                 .clickCreateAccountButton()
                 .isAccountCreated();
 
-        Assert.assertTrue(result, "The user is not registered!");
+        Assert.assertTrue(result, "Expected to be on the Account Page after signup step");
     }
 
 }

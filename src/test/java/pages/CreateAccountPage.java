@@ -64,6 +64,12 @@ public class CreateAccountPage extends BasePage {
     @FindBy(css = "button[data-qa='create-account']")
     private WebElement createAccountButton;
 
+    @FindBy(id = "newsletter")
+    private WebElement signUpCheckbox;
+
+    @FindBy(id = "optin")
+    private WebElement receiveCheckbox;
+
     public CreateAccountPage clickTitleRadioButton(String title) {
         if ("Mr.".equalsIgnoreCase(title)) {
             click(mrTitleRadioButton);
@@ -164,7 +170,7 @@ public class CreateAccountPage extends BasePage {
 
     public CreateAccountPage fillInAddressInfo(User user) {
         enterFirstNameToAddressInfo(user.getAddress().getFirstName())
-                .enterLastNameToAddressInfo(user.getFullNameName())
+                .enterLastNameToAddressInfo(user.getAddress().getLastName())
                 .enterCompanyToAddressInfo(user.getAddress().getCompany())
                 .enterAddress(user.getAddress().getAddress())
                 .enterAddress2(user.getAddress().getAddress2())
@@ -176,4 +182,13 @@ public class CreateAccountPage extends BasePage {
         return this;
     }
 
+    public CreateAccountPage selectSignUpCheckbox() {
+        click(signUpCheckbox);
+        return new CreateAccountPage(driver);
+    }
+
+    public CreateAccountPage selectReceiveCheckbox() {
+        click(receiveCheckbox);
+        return new CreateAccountPage(driver);
+    }
 }
