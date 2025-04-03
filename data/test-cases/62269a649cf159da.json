@@ -1,24 +1,24 @@
 {
-  "uid" : "782ed9175f9c615",
-  "name" : "testRedirectToCreateAccountPage",
-  "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
-  "historyId" : "865e71b3679940669665db25dff3e695",
+  "uid" : "62269a649cf159da",
+  "name" : "testRegisterWithValidData",
+  "fullName" : "tests.RegistrationTest.testRegisterWithValidData",
+  "historyId" : "8be00ae83cb128889e79ca2dcc9d777b",
   "time" : {
-    "start" : 1743471001846,
-    "stop" : 1743471003379,
-    "duration" : 1533
+    "start" : 1743651571735,
+    "stop" : 1743651576751,
+    "duration" : 5016
   },
-  "description" : "Verify that user is redirected to the Create Account Page",
-  "descriptionHtml" : "<p>Verify that user is redirected to the Create Account Page</p>\n",
+  "description" : "Verify that user can register with valid data",
+  "descriptionHtml" : "<p>Verify that user can register with valid data</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1743470998769,
-      "stop" : 1743471001793,
-      "duration" : 3024
+      "start" : 1743651569966,
+      "stop" : 1743651571733,
+      "duration" : 1767
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1743471003388,
-      "stop" : 1743471003465,
-      "duration" : 77
+      "start" : 1743651576753,
+      "stop" : 1743651576828,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -55,7 +55,7 @@
     "value" : "tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRedirectToCreateAccountPage"
+    "value" : "testRegisterWithValidData"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -67,10 +67,10 @@
     "value" : "tests.RegistrationTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1368-733"
+    "value" : "fv-az2249-230"
   }, {
     "name" : "thread",
-    "value" : "2452@fv-az1368-733.main(1)"
+    "value" : "2366@fv-az2249-230.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -91,6 +91,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "782ed9175f9c615.json",
+  "source" : "62269a649cf159da.json",
   "parameterValues" : [ ]
 }
