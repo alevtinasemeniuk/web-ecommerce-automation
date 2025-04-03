@@ -64,10 +64,10 @@ public class CreateAccountPage extends BasePage {
     @FindBy(css = "button[data-qa='create-account']")
     private WebElement createAccountButton;
 
-    @FindBy(id = "#newsletter")
+    @FindBy(id = "newsletter")
     private WebElement signUpCheckbox;
 
-    @FindBy(id = "#optin")
+    @FindBy(id = "optin")
     private WebElement receiveCheckbox;
 
     public CreateAccountPage clickTitleRadioButton(String title) {
