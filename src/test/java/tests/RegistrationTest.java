@@ -41,7 +41,7 @@ public class RegistrationTest extends BaseTest {
                 .clickCreateAccountButton()
                 .isAccountCreated();
 
-        Assert.assertTrue(result, "The user is not registered!");
+        Assert.assertTrue(result, "Expected to be on the Account Page after signup step");
     }
 
 }
