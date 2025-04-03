@@ -9,8 +9,6 @@ import pages.HomePage;
 import utils.DataGenerator;
 import utils.UserGenerator;
 
-import java.util.Random;
-
 public class RegistrationTest extends BaseTest {
 
     @Test
@@ -33,7 +31,7 @@ public class RegistrationTest extends BaseTest {
 
         boolean result = new HomePage(driver)
                 .clickLogin()
-                .enterUserName(testUser.getFullNameName())
+                .enterUserName(testUser.getFullName())
                 .enterEmail(testUser.getEmail())
                 .clickSignupButton()
                 .fillInUserInfo(testUser)

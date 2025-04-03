@@ -22,7 +22,7 @@ public class User {
         this.address = address;
     }
 
-    public String getFullNameName() {
+    public String getFullName() {
         return fullName;
     }
 
