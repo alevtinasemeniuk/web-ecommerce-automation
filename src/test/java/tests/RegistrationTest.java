@@ -10,6 +10,7 @@ import utils.DataGenerator;
 import utils.UserGenerator;
 
 public class RegistrationTest extends BaseTest {
+    private User testUser;
 
     @Test
     @Description("Verify that user is redirected to the Create Account Page")
@@ -27,7 +28,7 @@ public class RegistrationTest extends BaseTest {
     @Test
     @Description("Verify that user can register with valid data")
     public void testRegisterWithValidData() {
-        User testUser = UserGenerator.generateRandomUser();
+        testUser = UserGenerator.generateRandomUser();
 
         boolean result = new HomePage(driver)
                 .clickLogin()
