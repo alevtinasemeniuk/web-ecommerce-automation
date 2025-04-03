@@ -37,6 +37,8 @@ public class RegistrationTest extends BaseTest {
                 .enterEmail(testUser.getEmail())
                 .clickSignupButton()
                 .fillInUserInfo(testUser)
+                .selectSignUpCheckbox()
+                .selectReceiveCheckbox()
                 .fillInAddressInfo(testUser)
                 .clickCreateAccountButton()
                 .isAccountCreated();
