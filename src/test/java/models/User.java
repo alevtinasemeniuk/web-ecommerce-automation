@@ -2,14 +2,14 @@ package models;
 
 public class User {
 
-    private String title;
-    private String fullName;
-    private String email;
-    private String password;
-    private int day;
-    private Month month;
-    private int year;
-    private Address address;
+    private final String title;
+    private final String fullName;
+    private final String email;
+    private final String password;
+    private final int day;
+    private final Month month;
+    private final int year;
+    private final Address address;
 
     public User(String title, String fullName, String email, String password, int day, Month month, int year, Address address) {
         this.title = title;

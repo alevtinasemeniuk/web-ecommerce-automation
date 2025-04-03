@@ -2,16 +2,16 @@ package models;
 
 public class Address {
 
-    private String firstName;
-    private String lastName;
-    private String company;
-    private String address;
-    private String address2;
-    private String country;
-    private String zipCode;
-    private String city;
-    private String state;
-    private String mobileNumber;
+    private final String firstName;
+    private final String lastName;
+    private final String company;
+    private final String address;
+    private final String address2;
+    private final String country;
+    private final String zipCode;
+    private final String city;
+    private final String state;
+    private final String mobileNumber;
 
     public Address(String firstName, String lastName, String company, String address, String address2, String country, String state, String zipCode, String city, String mobileNumber) {
         this.firstName = firstName;
