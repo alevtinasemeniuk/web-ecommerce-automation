@@ -44,3 +44,5 @@ allure-results/
 target/allure-results/
 target/site/allure-maven-plugin/
 allure-report/
+
+/logs

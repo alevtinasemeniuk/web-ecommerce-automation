@@ -2,6 +2,7 @@ package pages;
 
 import models.Month;
 import models.User;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -188,6 +189,7 @@ public class CreateAccountPage extends BasePage {
     }
 
     public CreateAccountPage selectReceiveCheckbox() {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", receiveCheckbox);
         click(receiveCheckbox);
         return new CreateAccountPage(driver);
     }
