@@ -1,0 +1,112 @@
+{
+  "uid" : "8d3364fe51d68682",
+  "name" : "testClickVideoTutorialsMenu",
+  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
+  "historyId" : "72758180bfba04bc166a8f06214d9cb6",
+  "time" : {
+    "start" : 1744057369712,
+    "stop" : 1744057371675,
+    "duration" : 1963
+  },
+  "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
+  "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1744057368562,
+      "stop" : 1744057369710,
+      "duration" : 1148
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1744057369711,
+      "stop" : 1744057369711,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1744057371676,
+      "stop" : 1744057371752,
+      "duration" : 76
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testClickVideoTutorialsMenu"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2032-811"
+  }, {
+    "name" : "thread",
+    "value" : "2300@fv-az2032-811.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d3364fe51d68682.json",
+  "parameterValues" : [ ]
+}

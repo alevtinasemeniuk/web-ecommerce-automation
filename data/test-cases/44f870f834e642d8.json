@@ -1,0 +1,96 @@
+{
+  "uid" : "44f870f834e642d8",
+  "name" : "testRedirectToCreateAccountPage",
+  "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
+  "historyId" : "865e71b3679940669665db25dff3e695",
+  "time" : {
+    "start" : 1744057352034,
+    "stop" : 1744057353709,
+    "duration" : 1675
+  },
+  "description" : "Verify that user is redirected to the Create Account Page",
+  "descriptionHtml" : "<p>Verify that user is redirected to the Create Account Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1744057348391,
+      "stop" : 1744057351975,
+      "duration" : 3584
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1744057353717,
+      "stop" : 1744057353793,
+      "duration" : 76
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRedirectToCreateAccountPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2032-811"
+  }, {
+    "name" : "thread",
+    "value" : "2300@fv-az2032-811.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44f870f834e642d8.json",
+  "parameterValues" : [ ]
+}

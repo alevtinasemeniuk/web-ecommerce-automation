@@ -1,0 +1,112 @@
+{
+  "uid" : "4fe61019f1e2e7bc",
+  "name" : "testClickCartInMenu",
+  "fullName" : "tests.HomePageTest.testClickCartInMenu",
+  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
+  "time" : {
+    "start" : 1744057360377,
+    "stop" : 1744057360952,
+    "duration" : 575
+  },
+  "description" : "Check that the Cart page opens after clicking Cart in the menu",
+  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1744057360375,
+      "stop" : 1744057360375,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1744057359310,
+      "stop" : 1744057360374,
+      "duration" : 1064
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1744057360954,
+      "stop" : 1744057361030,
+      "duration" : 76
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testClickCartInMenu"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2032-811"
+  }, {
+    "name" : "thread",
+    "value" : "2300@fv-az2032-811.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4fe61019f1e2e7bc.json",
+  "parameterValues" : [ ]
+}

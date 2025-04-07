@@ -1,0 +1,112 @@
+{
+  "uid" : "cdaf89c94152e20d",
+  "name" : "testClickContactUsMenu",
+  "fullName" : "tests.HomePageTest.testClickContactUsMenu",
+  "historyId" : "2d3edd627be7ad36d03249b06819fd94",
+  "time" : {
+    "start" : 1744057362534,
+    "stop" : 1744057363298,
+    "duration" : 764
+  },
+  "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
+  "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1744057362532,
+      "stop" : 1744057362533,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1744057361032,
+      "stop" : 1744057362531,
+      "duration" : 1499
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1744057363300,
+      "stop" : 1744057363373,
+      "duration" : 73
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testClickContactUsMenu"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2032-811"
+  }, {
+    "name" : "thread",
+    "value" : "2300@fv-az2032-811.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdaf89c94152e20d.json",
+  "parameterValues" : [ ]
+}

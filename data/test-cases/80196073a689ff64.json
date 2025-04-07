@@ -1,0 +1,112 @@
+{
+  "uid" : "80196073a689ff64",
+  "name" : "testClickLoginMenu",
+  "fullName" : "tests.HomePageTest.testClickLoginMenu",
+  "historyId" : "4606f1943defddaf89ddd3ac836346d6",
+  "time" : {
+    "start" : 1744057365148,
+    "stop" : 1744057366388,
+    "duration" : 1240
+  },
+  "description" : "Check that the Sign Up button appears after clicking Signup/Login in the menu",
+  "descriptionHtml" : "<p>Check that the Sign Up button appears after clicking Signup/Login in the menu</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1744057363374,
+      "stop" : 1744057365146,
+      "duration" : 1772
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1744057365147,
+      "stop" : 1744057365147,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1744057366389,
+      "stop" : 1744057366468,
+      "duration" : 79
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testClickLoginMenu"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2032-811"
+  }, {
+    "name" : "thread",
+    "value" : "2300@fv-az2032-811.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80196073a689ff64.json",
+  "parameterValues" : [ ]
+}
