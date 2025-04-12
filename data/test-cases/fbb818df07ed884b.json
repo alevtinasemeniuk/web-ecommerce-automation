@@ -1,12 +1,12 @@
 {
-  "uid" : "8f312ba52aa2deed",
+  "uid" : "fbb818df07ed884b",
   "name" : "testClickCartInMenu",
   "fullName" : "tests.HomePageTest.testClickCartInMenu",
   "historyId" : "aa35b861195015e30e18f1a30dd66b81",
   "time" : {
-    "start" : 1744434091685,
-    "stop" : 1744434092228,
-    "duration" : 543
+    "start" : 1744436379152,
+    "stop" : 1744436379680,
+    "duration" : 528
   },
   "description" : "Check that the Cart page opens after clicking Cart in the menu",
   "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1744434090557,
-      "stop" : 1744434091682,
-      "duration" : 1125
+      "start" : 1744436378361,
+      "stop" : 1744436379148,
+      "duration" : 787
     },
     "description" : "",
     "status" : "passed",
@@ -32,8 +32,8 @@
   }, {
     "name" : "initPage",
     "time" : {
-      "start" : 1744434091683,
-      "stop" : 1744434091684,
+      "start" : 1744436379149,
+      "stop" : 1744436379150,
       "duration" : 1
     },
     "description" : "",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1744434092230,
-      "stop" : 1744434092301,
-      "duration" : 71
+      "start" : 1744436379682,
+      "stop" : 1744436379754,
+      "duration" : 72
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1277-646"
+    "value" : "fv-az1680-551"
   }, {
     "name" : "thread",
-    "value" : "2308@fv-az1277-646.main(1)"
+    "value" : "2386@fv-az1680-551.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8f312ba52aa2deed.json",
+  "source" : "fbb818df07ed884b.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "574fe221112c8d57",
+  "uid" : "476a819bf0b4fef0",
   "name" : "testRegisterWithValidData",
   "fullName" : "tests.RegistrationTest.testRegisterWithValidData",
   "historyId" : "8be00ae83cb128889e79ca2dcc9d777b",
   "time" : {
-    "start" : 1744434085233,
-    "stop" : 1744434088438,
-    "duration" : 3205
+    "start" : 1744436374165,
+    "stop" : 1744436377381,
+    "duration" : 3216
   },
   "description" : "User can register with valid data",
   "descriptionHtml" : "<p>User can register with valid data</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1744434084099,
-      "stop" : 1744434085231,
-      "duration" : 1132
+      "start" : 1744436373415,
+      "stop" : 1744436374162,
+      "duration" : 747
     },
     "description" : "",
     "status" : "passed",
@@ -31,11 +31,11 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
-    "name" : "tearDown",
+    "name" : "deleteUser",
     "time" : {
-      "start" : 1744434090481,
-      "stop" : 1744434090555,
-      "duration" : 74
+      "start" : 1744436377383,
+      "stop" : 1744436378282,
+      "duration" : 899
     },
     "description" : "",
     "status" : "passed",
@@ -47,11 +47,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "deleteUser",
+    "name" : "tearDown",
     "time" : {
-      "start" : 1744434088439,
-      "stop" : 1744434090479,
-      "duration" : 2040
+      "start" : 1744436378284,
+      "stop" : 1744436378359,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "tests.RegistrationTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1277-646"
+    "value" : "fv-az1680-551"
   }, {
     "name" : "thread",
-    "value" : "2308@fv-az1277-646.main(1)"
+    "value" : "2386@fv-az1680-551.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "574fe221112c8d57.json",
+  "source" : "476a819bf0b4fef0.json",
   "parameterValues" : [ ]
 }
