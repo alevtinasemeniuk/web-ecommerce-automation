@@ -43,7 +43,7 @@ public class HomePageTest extends BaseTest {
     @Description("Check that the Sign Up button appears after clicking Signup/Login in the menu")
     public void testClickLoginMenu() {
         boolean result = homepage
-                .clickLogin()
+                .clickLoginMenu()
                 .isOnLoginPage();
         Assert.assertTrue(result, "User is not on Login page");
     }
