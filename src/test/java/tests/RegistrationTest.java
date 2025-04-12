@@ -11,15 +11,25 @@ import pages.HomePage;
 import utils.DataGenerator;
 import utils.TestUtils;
 import utils.UserGenerator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
 
 public class RegistrationTest extends BaseTest {
     private User user;
+    private static final Logger logger = LoggerFactory.getLogger(RegistrationTest.class);
 
     @AfterMethod(alwaysRun = true)
     private void deleteUser() {
         HomePage homePage = new HomePage(driver);
+        homePage.clickLogoToGoHome();
+
         if (user != null && homePage.userIsLoggedIn()) {
+            logger.info("Deleting user: {}, Password: {}", user.getEmail(), user.getPassword());
             homePage.clickDeleteAccountButton();
+        } else {
+            logger.info("No user to delete or user is not logged in.");
         }
     }
 
