@@ -1,70 +1,80 @@
 [ {
-  "uid" : "80196073a689ff64",
-  "name" : "testClickLoginMenu",
-  "time" : {
-    "start" : 1744057365148,
-    "stop" : 1744057366388,
-    "duration" : 1240
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20007e0aa65f29df",
-  "name" : "testRegisterWithValidData",
-  "time" : {
-    "start" : 1744057355238,
-    "stop" : 1744057359231,
-    "duration" : 3993
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "44f870f834e642d8",
+  "uid" : "efd3c9d9dc624470",
   "name" : "testRedirectToCreateAccountPage",
   "time" : {
-    "start" : 1744057352034,
-    "stop" : 1744057353709,
-    "duration" : 1675
+    "start" : 1744434074169,
+    "stop" : 1744434075406,
+    "duration" : 1237
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b379e78e29d2e39b",
-  "name" : "testClickProductsInMenu",
-  "time" : {
-    "start" : 1744057367837,
-    "stop" : 1744057368484,
-    "duration" : 647
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cdaf89c94152e20d",
+  "uid" : "bb2febd56673b5f3",
   "name" : "testClickContactUsMenu",
   "time" : {
-    "start" : 1744057362534,
-    "stop" : 1744057363298,
-    "duration" : 764
+    "start" : 1744434093397,
+    "stop" : 1744434093870,
+    "duration" : 473
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4fe61019f1e2e7bc",
+  "uid" : "c7e964458ac5a9cc",
+  "name" : "testClickProductsInMenu",
+  "time" : {
+    "start" : 1744434097275,
+    "stop" : 1744434098392,
+    "duration" : 1117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "574fe221112c8d57",
+  "name" : "testRegisterWithValidData",
+  "time" : {
+    "start" : 1744434085233,
+    "stop" : 1744434088438,
+    "duration" : 3205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f312ba52aa2deed",
   "name" : "testClickCartInMenu",
   "time" : {
-    "start" : 1744057360377,
-    "stop" : 1744057360952,
-    "duration" : 575
+    "start" : 1744434091685,
+    "stop" : 1744434092228,
+    "duration" : 543
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8d3364fe51d68682",
+  "uid" : "d3afc07e87dcf9cc",
+  "name" : "testClickLoginMenu",
+  "time" : {
+    "start" : 1744434095056,
+    "stop" : 1744434095612,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b801fda68694165",
   "name" : "testClickVideoTutorialsMenu",
   "time" : {
-    "start" : 1744057369712,
-    "stop" : 1744057371675,
-    "duration" : 1963
+    "start" : 1744434099751,
+    "stop" : 1744434101613,
+    "duration" : 1862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b251777262835836",
+  "name" : "testRegisterWithExistingEmail",
+  "time" : {
+    "start" : 1744434076747,
+    "stop" : 1744434081979,
+    "duration" : 5232
   },
   "status" : "passed",
   "severity" : "normal"
