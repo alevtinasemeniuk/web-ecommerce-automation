@@ -1,24 +1,40 @@
 {
-  "uid" : "6a99e25aa8821ecb",
-  "name" : "testRedirectToCreateAccountPage",
-  "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
-  "historyId" : "865e71b3679940669665db25dff3e695",
+  "uid" : "80f439a907e34b49",
+  "name" : "testClickCartInMenu",
+  "fullName" : "tests.HomePageTest.testClickCartInMenu",
+  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
   "time" : {
-    "start" : 1744436361974,
-    "stop" : 1744436363214,
-    "duration" : 1240
+    "start" : 1745729195237,
+    "stop" : 1745729196027,
+    "duration" : 790
   },
-  "description" : "Redirect to Create Account Page after signup click",
-  "descriptionHtml" : "<p>Redirect to Create Account Page after signup click</p>\n",
+  "description" : "Check that the Cart page opens after clicking Cart in the menu",
+  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1745729195205,
+      "stop" : 1745729195218,
+      "duration" : 13
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1744436359269,
-      "stop" : 1744436361907,
-      "duration" : 2638
+      "start" : 1745729191604,
+      "stop" : 1745729195166,
+      "duration" : 3562
     },
     "description" : "",
     "status" : "passed",
@@ -31,26 +47,10 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
-    "name" : "deleteUser",
-    "time" : {
-      "start" : 1744436363222,
-      "stop" : 1744436363739,
-      "duration" : 517
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1744436363741,
-      "stop" : 1744436363819,
+      "start" : 1745729196036,
+      "stop" : 1745729196114,
       "duration" : 78
     },
     "description" : "",
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRedirectToCreateAccountPage"
+    "value" : "testClickCartInMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1680-551"
+    "value" : "fv-az1779-381"
   }, {
     "name" : "thread",
-    "value" : "2386@fv-az1680-551.main(1)"
+    "value" : "2332@fv-az1779-381.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6a99e25aa8821ecb.json",
+  "source" : "80f439a907e34b49.json",
   "parameterValues" : [ ]
 }

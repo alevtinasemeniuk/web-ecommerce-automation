@@ -1,12 +1,12 @@
 {
-  "uid" : "2b457d7c22917ded",
+  "uid" : "274083c29d52a258",
   "name" : "testClickLoginMenu",
   "fullName" : "tests.HomePageTest.testClickLoginMenu",
   "historyId" : "4606f1943defddaf89ddd3ac836346d6",
   "time" : {
-    "start" : 1744436382079,
-    "stop" : 1744436382665,
-    "duration" : 586
+    "start" : 1745729199552,
+    "stop" : 1745729200041,
+    "duration" : 489
   },
   "description" : "Check that the Sign Up button appears after clicking Signup/Login in the menu",
   "descriptionHtml" : "<p>Check that the Sign Up button appears after clicking Signup/Login in the menu</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "initPage",
+    "name" : "setUp",
     "time" : {
-      "start" : 1744436382077,
-      "stop" : 1744436382077,
-      "duration" : 0
+      "start" : 1745729198169,
+      "stop" : 1745729199547,
+      "duration" : 1378
     },
     "description" : "",
     "status" : "passed",
@@ -30,11 +30,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "setUp",
+    "name" : "initPage",
     "time" : {
-      "start" : 1744436381253,
-      "stop" : 1744436382073,
-      "duration" : 820
+      "start" : 1745729199548,
+      "stop" : 1745729199548,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1744436382666,
-      "stop" : 1744436382739,
-      "duration" : 73
+      "start" : 1745729200042,
+      "stop" : 1745729200120,
+      "duration" : 78
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1680-551"
+    "value" : "fv-az1779-381"
   }, {
     "name" : "thread",
-    "value" : "2386@fv-az1680-551.main(1)"
+    "value" : "2332@fv-az1779-381.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2b457d7c22917ded.json",
+  "source" : "274083c29d52a258.json",
   "parameterValues" : [ ]
 }

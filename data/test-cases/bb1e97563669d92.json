@@ -1,24 +1,40 @@
 {
-  "uid" : "dca4f920f8e037f1",
-  "name" : "testRegisterWithExistingEmail",
-  "fullName" : "tests.RegistrationTest.testRegisterWithExistingEmail",
-  "historyId" : "6e2226819efa252d57084faede30000b",
+  "uid" : "bb1e97563669d92",
+  "name" : "testClickVideoTutorialsMenu",
+  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
+  "historyId" : "72758180bfba04bc166a8f06214d9cb6",
   "time" : {
-    "start" : 1744436364731,
-    "stop" : 1744436370481,
-    "duration" : 5750
+    "start" : 1745729203937,
+    "stop" : 1745729206115,
+    "duration" : 2178
   },
-  "description" : "User can't register with existing email",
-  "descriptionHtml" : "<p>User can't register with existing email</p>\n",
+  "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
+  "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1745729203935,
+      "stop" : 1745729203936,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1744436363821,
-      "stop" : 1744436364728,
-      "duration" : 907
+      "start" : 1745729202541,
+      "stop" : 1745729203933,
+      "duration" : 1392
     },
     "description" : "",
     "status" : "passed",
@@ -33,25 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1744436373326,
-      "stop" : 1744436373413,
-      "duration" : 87
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "deleteUser",
-    "time" : {
-      "start" : 1744436370483,
-      "stop" : 1744436373325,
-      "duration" : 2842
+      "start" : 1745729206116,
+      "stop" : 1745729206590,
+      "duration" : 474
     },
     "description" : "",
     "status" : "passed",
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRegisterWithExistingEmail"
+    "value" : "testClickVideoTutorialsMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1680-551"
+    "value" : "fv-az1779-381"
   }, {
     "name" : "thread",
-    "value" : "2386@fv-az1680-551.main(1)"
+    "value" : "2332@fv-az1779-381.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dca4f920f8e037f1.json",
+  "source" : "bb1e97563669d92.json",
   "parameterValues" : [ ]
 }
