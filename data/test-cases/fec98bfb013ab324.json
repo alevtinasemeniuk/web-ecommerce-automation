@@ -1,40 +1,24 @@
 {
-  "uid" : "80f439a907e34b49",
-  "name" : "testClickCartInMenu",
-  "fullName" : "tests.HomePageTest.testClickCartInMenu",
-  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
+  "uid" : "fec98bfb013ab324",
+  "name" : "testRegisterWithExistingEmail",
+  "fullName" : "tests.RegistrationTest.testRegisterWithExistingEmail",
+  "historyId" : "6e2226819efa252d57084faede30000b",
   "time" : {
-    "start" : 1745729195237,
-    "stop" : 1745729196027,
-    "duration" : 790
+    "start" : 1746159968186,
+    "stop" : 1746159978777,
+    "duration" : 10591
   },
-  "description" : "Check that the Cart page opens after clicking Cart in the menu",
-  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
+  "description" : "User can't register with existing email",
+  "descriptionHtml" : "<p>User can't register with existing email</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "initPage",
-    "time" : {
-      "start" : 1745729195205,
-      "stop" : 1745729195218,
-      "duration" : 13
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1745729191604,
-      "stop" : 1745729195166,
-      "duration" : 3562
+      "start" : 1746159965337,
+      "stop" : 1746159968184,
+      "duration" : 2847
     },
     "description" : "",
     "status" : "passed",
@@ -47,11 +31,27 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
+    "name" : "deleteUser",
+    "time" : {
+      "start" : 1746159978779,
+      "stop" : 1746159982595,
+      "duration" : 3816
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1745729196036,
-      "stop" : 1745729196114,
-      "duration" : 78
+      "start" : 1746159982596,
+      "stop" : 1746159982673,
+      "duration" : 77
     },
     "description" : "",
     "status" : "passed",
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.RegistrationTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickCartInMenu"
+    "value" : "testRegisterWithExistingEmail"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.RegistrationTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1779-381"
+    "value" : "fv-az1786-763"
   }, {
     "name" : "thread",
-    "value" : "2332@fv-az1779-381.main(1)"
+    "value" : "2319@fv-az1786-763.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "80f439a907e34b49.json",
+  "source" : "fec98bfb013ab324.json",
   "parameterValues" : [ ]
 }
