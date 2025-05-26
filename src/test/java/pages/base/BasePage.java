@@ -105,5 +105,8 @@ public abstract class BasePage {
         }
     }
 
+    public String getCurrentURL() {
+        return driver.getCurrentUrl();
+    }
 }
 

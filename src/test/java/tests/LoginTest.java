@@ -25,4 +25,17 @@ public class LoginTest extends BaseTest {
 
         Assert.assertEquals(userIsLoggedInText, user.getFullName());
     }
+
+    @Test
+    @Description("User cannot log in with empty fields")
+    public void testLoginWithEmptyFields() {
+        User user = UserGenerator.generateRandomUser();
+        TestUtils.registerUserAndLogout(driver, user);
+
+        String currentURL = new LoginPage(driver)
+                .clickLoginButton()
+                .getCurrentURL();
+
+        Assert.assertEquals(currentURL, "https://automationexercise.com/login");
+    }
 }
