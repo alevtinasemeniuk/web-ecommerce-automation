@@ -180,6 +180,7 @@ public class CreateAccountPage extends BasePage {
                 .enterCity(user.getAddress().getCity())
                 .enterZipCode(user.getAddress().getZipCode())
                 .enterMobileNumber(user.getAddress().getMobileNumber());
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", createAccountButton);
         return this;
     }
 
