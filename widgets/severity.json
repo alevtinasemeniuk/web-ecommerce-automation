@@ -1,80 +1,80 @@
 [ {
-  "uid" : "fe97352d3fc9da5c",
-  "name" : "testClickProductsInMenu",
-  "time" : {
-    "start" : 1746159948662,
-    "stop" : 1746159951141,
-    "duration" : 2479
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de9118cc77ea1c89",
-  "name" : "testRegisterWithValidData",
-  "time" : {
-    "start" : 1746159985879,
-    "stop" : 1746159993201,
-    "duration" : 7322
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c784db2a68380fcf",
-  "name" : "testClickLoginMenu",
-  "time" : {
-    "start" : 1746159944686,
-    "stop" : 1746159945704,
-    "duration" : 1018
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d508ddc0c265d902",
-  "name" : "testRedirectToCreateAccountPage",
-  "time" : {
-    "start" : 1746159959166,
-    "stop" : 1746159961624,
-    "duration" : 2458
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fb256d79bfe6752",
-  "name" : "testClickCartInMenu",
-  "time" : {
-    "start" : 1746159936833,
-    "stop" : 1746159937950,
-    "duration" : 1117
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fec98bfb013ab324",
+  "uid" : "15fdbffaf3d07b21",
   "name" : "testRegisterWithExistingEmail",
   "time" : {
-    "start" : 1746159968186,
-    "stop" : 1746159978777,
-    "duration" : 10591
+    "start" : 1748289340066,
+    "stop" : 1748289345836,
+    "duration" : 5770
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aabb8a83b8d4500f",
+  "uid" : "4a0356d8b997ebae",
+  "name" : "testClickLoginMenu",
+  "time" : {
+    "start" : 1748289362280,
+    "stop" : 1748289362875,
+    "duration" : 595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44f1a81d349bb7a",
   "name" : "testClickVideoTutorialsMenu",
   "time" : {
-    "start" : 1746159954486,
-    "stop" : 1746159956462,
-    "duration" : 1976
+    "start" : 1748289368905,
+    "stop" : 1748289370928,
+    "duration" : 2023
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ec36d2b90c45df3c",
+  "uid" : "1426de338c1d9c19",
+  "name" : "testClickCartInMenu",
+  "time" : {
+    "start" : 1748289356808,
+    "stop" : 1748289357408,
+    "duration" : 600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aba5cd687cd3c590",
+  "name" : "testClickProductsInMenu",
+  "time" : {
+    "start" : 1748289365155,
+    "stop" : 1748289367008,
+    "duration" : 1853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b97b35fcc8e3d10",
   "name" : "testClickContactUsMenu",
   "time" : {
-    "start" : 1746159940828,
-    "stop" : 1746159941854,
-    "duration" : 1026
+    "start" : 1748289359078,
+    "stop" : 1748289360021,
+    "duration" : 943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc80b9c148272d4d",
+  "name" : "testRegisterWithValidData",
+  "time" : {
+    "start" : 1748289350397,
+    "stop" : 1748289354011,
+    "duration" : 3614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "182a68502b8d6a42",
+  "name" : "testRedirectToCreateAccountPage",
+  "time" : {
+    "start" : 1748289336047,
+    "stop" : 1748289337458,
+    "duration" : 1411
   },
   "status" : "passed",
   "severity" : "normal"

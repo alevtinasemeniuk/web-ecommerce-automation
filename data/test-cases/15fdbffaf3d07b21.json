@@ -1,40 +1,24 @@
 {
-  "uid" : "ec36d2b90c45df3c",
-  "name" : "testClickContactUsMenu",
-  "fullName" : "tests.HomePageTest.testClickContactUsMenu",
-  "historyId" : "2d3edd627be7ad36d03249b06819fd94",
+  "uid" : "15fdbffaf3d07b21",
+  "name" : "testRegisterWithExistingEmail",
+  "fullName" : "tests.RegistrationTest.testRegisterWithExistingEmail",
+  "historyId" : "6e2226819efa252d57084faede30000b",
   "time" : {
-    "start" : 1746159940828,
-    "stop" : 1746159941854,
-    "duration" : 1026
+    "start" : 1748289340066,
+    "stop" : 1748289345836,
+    "duration" : 5770
   },
-  "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
-  "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
+  "description" : "User can't register with existing email",
+  "descriptionHtml" : "<p>User can't register with existing email</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "initPage",
-    "time" : {
-      "start" : 1746159940826,
-      "stop" : 1746159940827,
-      "duration" : 1
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1746159938045,
-      "stop" : 1746159940825,
-      "duration" : 2780
+      "start" : 1748289338365,
+      "stop" : 1748289340064,
+      "duration" : 1699
     },
     "description" : "",
     "status" : "passed",
@@ -47,11 +31,27 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
+    "name" : "deleteUser",
+    "time" : {
+      "start" : 1748289345838,
+      "stop" : 1748289348783,
+      "duration" : 2945
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1746159941856,
-      "stop" : 1746159941930,
-      "duration" : 74
+      "start" : 1748289348784,
+      "stop" : 1748289348862,
+      "duration" : 78
     },
     "description" : "",
     "status" : "passed",
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.RegistrationTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickContactUsMenu"
+    "value" : "testRegisterWithExistingEmail"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.RegistrationTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1786-763"
+    "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2319@fv-az1786-763.main(1)"
+    "value" : "2513@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ec36d2b90c45df3c.json",
+  "source" : "15fdbffaf3d07b21.json",
   "parameterValues" : [ ]
 }

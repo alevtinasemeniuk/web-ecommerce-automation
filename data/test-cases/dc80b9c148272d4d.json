@@ -1,24 +1,24 @@
 {
-  "uid" : "d508ddc0c265d902",
-  "name" : "testRedirectToCreateAccountPage",
-  "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
-  "historyId" : "865e71b3679940669665db25dff3e695",
+  "uid" : "dc80b9c148272d4d",
+  "name" : "testRegisterWithValidData",
+  "fullName" : "tests.RegistrationTest.testRegisterWithValidData",
+  "historyId" : "8be00ae83cb128889e79ca2dcc9d777b",
   "time" : {
-    "start" : 1746159959166,
-    "stop" : 1746159961624,
-    "duration" : 2458
+    "start" : 1748289350397,
+    "stop" : 1748289354011,
+    "duration" : 3614
   },
-  "description" : "Redirect to Create Account Page after signup click",
-  "descriptionHtml" : "<p>Redirect to Create Account Page after signup click</p>\n",
+  "description" : "User can register with valid data",
+  "descriptionHtml" : "<p>User can register with valid data</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1746159956544,
-      "stop" : 1746159959161,
-      "duration" : 2617
+      "start" : 1748289348863,
+      "stop" : 1748289350395,
+      "duration" : 1532
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "deleteUser",
     "time" : {
-      "start" : 1746159961625,
-      "stop" : 1746159965260,
-      "duration" : 3635
+      "start" : 1748289354013,
+      "stop" : 1748289355267,
+      "duration" : 1254
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1746159965261,
-      "stop" : 1746159965335,
-      "duration" : 74
+      "start" : 1748289355268,
+      "stop" : 1748289355343,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRedirectToCreateAccountPage"
+    "value" : "testRegisterWithValidData"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -83,10 +83,10 @@
     "value" : "tests.RegistrationTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1786-763"
+    "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2319@fv-az1786-763.main(1)"
+    "value" : "2513@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d508ddc0c265d902.json",
+  "source" : "dc80b9c148272d4d.json",
   "parameterValues" : [ ]
 }

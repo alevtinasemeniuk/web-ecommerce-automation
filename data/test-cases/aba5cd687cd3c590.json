@@ -1,24 +1,24 @@
 {
-  "uid" : "c784db2a68380fcf",
-  "name" : "testClickLoginMenu",
-  "fullName" : "tests.HomePageTest.testClickLoginMenu",
-  "historyId" : "4606f1943defddaf89ddd3ac836346d6",
+  "uid" : "aba5cd687cd3c590",
+  "name" : "testClickProductsInMenu",
+  "fullName" : "tests.HomePageTest.testClickProductsInMenu",
+  "historyId" : "77b08c721336f0081c00ebf007641079",
   "time" : {
-    "start" : 1746159944686,
-    "stop" : 1746159945704,
-    "duration" : 1018
+    "start" : 1748289365155,
+    "stop" : 1748289367008,
+    "duration" : 1853
   },
-  "description" : "Check that the Sign Up button appears after clicking Signup/Login in the menu",
-  "descriptionHtml" : "<p>Check that the Sign Up button appears after clicking Signup/Login in the menu</p>\n",
+  "description" : "Check that the PLP opens after clicking Products in the menu",
+  "descriptionHtml" : "<p>Check that the PLP opens after clicking Products in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1746159941932,
-      "stop" : 1746159944683,
-      "duration" : 2751
+      "start" : 1748289362951,
+      "stop" : 1748289365153,
+      "duration" : 2202
     },
     "description" : "",
     "status" : "passed",
@@ -32,8 +32,8 @@
   }, {
     "name" : "initPage",
     "time" : {
-      "start" : 1746159944684,
-      "stop" : 1746159944684,
+      "start" : 1748289365154,
+      "stop" : 1748289365154,
       "duration" : 0
     },
     "description" : "",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1746159945706,
-      "stop" : 1746159945781,
-      "duration" : 75
+      "start" : 1748289367009,
+      "stop" : 1748289367083,
+      "duration" : 74
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickLoginMenu"
+    "value" : "testClickProductsInMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -83,10 +83,10 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1786-763"
+    "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2319@fv-az1786-763.main(1)"
+    "value" : "2513@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c784db2a68380fcf.json",
+  "source" : "aba5cd687cd3c590.json",
   "parameterValues" : [ ]
 }
