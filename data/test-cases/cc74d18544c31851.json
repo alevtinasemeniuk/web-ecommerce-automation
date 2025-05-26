@@ -1,24 +1,24 @@
 {
-  "uid" : "1426de338c1d9c19",
-  "name" : "testClickCartInMenu",
-  "fullName" : "tests.HomePageTest.testClickCartInMenu",
-  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
+  "uid" : "cc74d18544c31851",
+  "name" : "testClickVideoTutorialsMenu",
+  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
+  "historyId" : "72758180bfba04bc166a8f06214d9cb6",
   "time" : {
-    "start" : 1748289356808,
-    "stop" : 1748289357408,
-    "duration" : 600
+    "start" : 1748292452509,
+    "stop" : 1748292454267,
+    "duration" : 1758
   },
-  "description" : "Check that the Cart page opens after clicking Cart in the menu",
-  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
+  "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
+  "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748289355345,
-      "stop" : 1748289356805,
-      "duration" : 1460
+      "start" : 1748292451191,
+      "stop" : 1748292452506,
+      "duration" : 1315
     },
     "description" : "",
     "status" : "passed",
@@ -32,8 +32,8 @@
   }, {
     "name" : "initPage",
     "time" : {
-      "start" : 1748289356806,
-      "stop" : 1748289356806,
+      "start" : 1748292452507,
+      "stop" : 1748292452507,
       "duration" : 0
     },
     "description" : "",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748289357409,
-      "stop" : 1748289357481,
-      "duration" : 72
+      "start" : 1748292454268,
+      "stop" : 1748292454347,
+      "duration" : 79
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickCartInMenu"
+    "value" : "testClickVideoTutorialsMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -86,7 +86,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2513@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2558@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1426de338c1d9c19.json",
+  "source" : "cc74d18544c31851.json",
   "parameterValues" : [ ]
 }

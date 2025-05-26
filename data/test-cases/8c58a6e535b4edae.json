@@ -1,24 +1,24 @@
 {
-  "uid" : "182a68502b8d6a42",
-  "name" : "testRedirectToCreateAccountPage",
-  "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
-  "historyId" : "865e71b3679940669665db25dff3e695",
+  "uid" : "8c58a6e535b4edae",
+  "name" : "testRegisterWithExistingEmail",
+  "fullName" : "tests.RegistrationTest.testRegisterWithExistingEmail",
+  "historyId" : "6e2226819efa252d57084faede30000b",
   "time" : {
-    "start" : 1748289336047,
-    "stop" : 1748289337458,
-    "duration" : 1411
+    "start" : 1748292428240,
+    "stop" : 1748292433951,
+    "duration" : 5711
   },
-  "description" : "Redirect to Create Account Page after signup click",
-  "descriptionHtml" : "<p>Redirect to Create Account Page after signup click</p>\n",
+  "description" : "User can't register with existing email",
+  "descriptionHtml" : "<p>User can't register with existing email</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748289332096,
-      "stop" : 1748289335992,
-      "duration" : 3896
+      "start" : 1748292426811,
+      "stop" : 1748292428238,
+      "duration" : 1427
     },
     "description" : "",
     "status" : "passed",
@@ -31,11 +31,11 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
-    "name" : "tearDown",
+    "name" : "deleteUser",
     "time" : {
-      "start" : 1748289338285,
-      "stop" : 1748289338362,
-      "duration" : 77
+      "start" : 1748292433953,
+      "stop" : 1748292436672,
+      "duration" : 2719
     },
     "description" : "",
     "status" : "passed",
@@ -47,11 +47,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "deleteUser",
+    "name" : "tearDown",
     "time" : {
-      "start" : 1748289337467,
-      "stop" : 1748289338283,
-      "duration" : 816
+      "start" : 1748292436673,
+      "stop" : 1748292436748,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRedirectToCreateAccountPage"
+    "value" : "testRegisterWithExistingEmail"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -86,7 +86,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2513@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2558@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "182a68502b8d6a42.json",
+  "source" : "8c58a6e535b4edae.json",
   "parameterValues" : [ ]
 }

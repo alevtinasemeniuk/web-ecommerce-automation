@@ -1,24 +1,40 @@
 {
-  "uid" : "dc80b9c148272d4d",
-  "name" : "testRegisterWithValidData",
-  "fullName" : "tests.RegistrationTest.testRegisterWithValidData",
-  "historyId" : "8be00ae83cb128889e79ca2dcc9d777b",
+  "uid" : "7deb38084b3555c6",
+  "name" : "testClickLoginMenu",
+  "fullName" : "tests.HomePageTest.testClickLoginMenu",
+  "historyId" : "4606f1943defddaf89ddd3ac836346d6",
   "time" : {
-    "start" : 1748289350397,
-    "stop" : 1748289354011,
-    "duration" : 3614
+    "start" : 1748292448128,
+    "stop" : 1748292448712,
+    "duration" : 584
   },
-  "description" : "User can register with valid data",
-  "descriptionHtml" : "<p>User can register with valid data</p>\n",
+  "description" : "Check that the Sign Up button appears after clicking Signup/Login in the menu",
+  "descriptionHtml" : "<p>Check that the Sign Up button appears after clicking Signup/Login in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748289348863,
-      "stop" : 1748289350395,
-      "duration" : 1532
+      "start" : 1748292446770,
+      "stop" : 1748292448122,
+      "duration" : 1352
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1748292448127,
+      "stop" : 1748292448127,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -31,27 +47,11 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
-    "name" : "deleteUser",
-    "time" : {
-      "start" : 1748289354013,
-      "stop" : 1748289355267,
-      "duration" : 1254
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748289355268,
-      "stop" : 1748289355343,
-      "duration" : 75
+      "start" : 1748292448713,
+      "stop" : 1748292448784,
+      "duration" : 71
     },
     "description" : "",
     "status" : "passed",
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRegisterWithValidData"
+    "value" : "testClickLoginMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2513@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2558@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dc80b9c148272d4d.json",
+  "source" : "7deb38084b3555c6.json",
   "parameterValues" : [ ]
 }

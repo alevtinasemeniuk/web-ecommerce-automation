@@ -1,0 +1,112 @@
+{
+  "uid" : "f45c70db41e158d4",
+  "name" : "testRedirectToCreateAccountPage",
+  "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
+  "historyId" : "865e71b3679940669665db25dff3e695",
+  "time" : {
+    "start" : 1748292424320,
+    "stop" : 1748292425755,
+    "duration" : 1435
+  },
+  "description" : "Redirect to Create Account Page after signup click",
+  "descriptionHtml" : "<p>Redirect to Create Account Page after signup click</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1748292420649,
+      "stop" : 1748292424268,
+      "duration" : 3619
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1748292426731,
+      "stop" : 1748292426809,
+      "duration" : 78
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "deleteUser",
+    "time" : {
+      "start" : 1748292425762,
+      "stop" : 1748292426729,
+      "duration" : 967
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRedirectToCreateAccountPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmf6wy0o8zjz"
+  }, {
+    "name" : "thread",
+    "value" : "2558@pkrvmf6wy0o8zjz.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f45c70db41e158d4.json",
+  "parameterValues" : [ ]
+}

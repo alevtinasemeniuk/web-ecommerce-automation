@@ -1,23 +1,23 @@
 {
-  "uid" : "44f1a81d349bb7a",
-  "name" : "testClickVideoTutorialsMenu",
-  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
-  "historyId" : "72758180bfba04bc166a8f06214d9cb6",
+  "uid" : "3b1faef837ab7ca2",
+  "name" : "testClickCartInMenu",
+  "fullName" : "tests.HomePageTest.testClickCartInMenu",
+  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
   "time" : {
-    "start" : 1748289368905,
-    "stop" : 1748289370928,
-    "duration" : 2023
+    "start" : 1748292444323,
+    "stop" : 1748292444875,
+    "duration" : 552
   },
-  "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
-  "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
+  "description" : "Check that the Cart page opens after clicking Cart in the menu",
+  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "initPage",
     "time" : {
-      "start" : 1748289368904,
-      "stop" : 1748289368904,
+      "start" : 1748292444321,
+      "stop" : 1748292444321,
       "duration" : 0
     },
     "description" : "",
@@ -32,9 +32,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1748289367084,
-      "stop" : 1748289368903,
-      "duration" : 1819
+      "start" : 1748292443019,
+      "stop" : 1748292444319,
+      "duration" : 1300
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748289370929,
-      "stop" : 1748289371004,
-      "duration" : 75
+      "start" : 1748292444876,
+      "stop" : 1748292444949,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickVideoTutorialsMenu"
+    "value" : "testClickCartInMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -86,7 +86,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2513@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2558@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "44f1a81d349bb7a.json",
+  "source" : "3b1faef837ab7ca2.json",
   "parameterValues" : [ ]
 }
