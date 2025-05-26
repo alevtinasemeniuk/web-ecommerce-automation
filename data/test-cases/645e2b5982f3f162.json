@@ -1,12 +1,12 @@
 {
-  "uid" : "7c29d05ccd5c5c49",
+  "uid" : "645e2b5982f3f162",
   "name" : "testRedirectToCreateAccountPage",
   "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
   "historyId" : "865e71b3679940669665db25dff3e695",
   "time" : {
-    "start" : 1748294869785,
-    "stop" : 1748294871253,
-    "duration" : 1468
+    "start" : 1748298762469,
+    "stop" : 1748298764017,
+    "duration" : 1548
   },
   "description" : "Redirect to Create Account Page after signup click",
   "descriptionHtml" : "<p>Redirect to Create Account Page after signup click</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748294862125,
-      "stop" : 1748294869726,
-      "duration" : 7601
+      "start" : 1748298754509,
+      "stop" : 1748298762410,
+      "duration" : 7901
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748294872264,
-      "stop" : 1748294872341,
-      "duration" : 77
+      "start" : 1748298764714,
+      "stop" : 1748298764790,
+      "duration" : 76
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   }, {
     "name" : "deleteUser",
     "time" : {
-      "start" : 1748294871262,
-      "stop" : 1748294872262,
-      "duration" : 1000
+      "start" : 1748298764025,
+      "stop" : 1748298764712,
+      "duration" : 687
     },
     "description" : "",
     "status" : "passed",
@@ -86,7 +86,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2532@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2588@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7c29d05ccd5c5c49.json",
+  "source" : "645e2b5982f3f162.json",
   "parameterValues" : [ ]
 }

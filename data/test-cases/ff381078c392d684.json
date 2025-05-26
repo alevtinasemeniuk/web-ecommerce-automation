@@ -1,24 +1,40 @@
 {
-  "uid" : "fbefe54a6b113d82",
-  "name" : "testRegisterWithValidData",
-  "fullName" : "tests.RegistrationTest.testRegisterWithValidData",
-  "historyId" : "8be00ae83cb128889e79ca2dcc9d777b",
+  "uid" : "ff381078c392d684",
+  "name" : "testClickContactUsMenu",
+  "fullName" : "tests.HomePageTest.testClickContactUsMenu",
+  "historyId" : "2d3edd627be7ad36d03249b06819fd94",
   "time" : {
-    "start" : 1748294882669,
-    "stop" : 1748294886020,
-    "duration" : 3351
+    "start" : 1748298786527,
+    "stop" : 1748298787320,
+    "duration" : 793
   },
-  "description" : "User can register with valid data",
-  "descriptionHtml" : "<p>User can register with valid data</p>\n",
+  "description" : "Check that the Contuct Us page opens after ckicking Contact us in the menu",
+  "descriptionHtml" : "<p>Check that the Contuct Us page opens after ckicking Contact us in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748294881504,
-      "stop" : 1748294882666,
-      "duration" : 1162
+      "start" : 1748298785078,
+      "stop" : 1748298786524,
+      "duration" : 1446
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1748298786525,
+      "stop" : 1748298786525,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -33,25 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748294887052,
-      "stop" : 1748294887126,
-      "duration" : 74
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "deleteUser",
-    "time" : {
-      "start" : 1748294886022,
-      "stop" : 1748294887051,
-      "duration" : 1029
+      "start" : 1748298787321,
+      "stop" : 1748298787392,
+      "duration" : 71
     },
     "description" : "",
     "status" : "passed",
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRegisterWithValidData"
+    "value" : "testClickContactUsMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2532@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2588@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fbefe54a6b113d82.json",
+  "source" : "ff381078c392d684.json",
   "parameterValues" : [ ]
 }

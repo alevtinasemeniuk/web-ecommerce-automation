@@ -1,40 +1,24 @@
 {
-  "uid" : "ada92b91a13e4482",
-  "name" : "testClickCartInMenu",
-  "fullName" : "tests.HomePageTest.testClickCartInMenu",
-  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
+  "uid" : "5d2fe2b0e3b36d24",
+  "name" : "testLogIn",
+  "fullName" : "tests.LoginTest.testLogIn",
+  "historyId" : "11bc328e90084016ed856cbcf44185ce",
   "time" : {
-    "start" : 1748294888989,
-    "stop" : 1748294889483,
-    "duration" : 494
+    "start" : 1748298799538,
+    "stop" : 1748298805694,
+    "duration" : 6156
   },
-  "description" : "Check that the Cart page opens after clicking Cart in the menu",
-  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
+  "description" : "User can log in with valid email and password",
+  "descriptionHtml" : "<p>User can log in with valid email and password</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "initPage",
-    "time" : {
-      "start" : 1748294888987,
-      "stop" : 1748294888987,
-      "duration" : 0
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1748294887128,
-      "stop" : 1748294888986,
-      "duration" : 1858
+      "start" : 1748298797881,
+      "stop" : 1748298799536,
+      "duration" : 1655
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748294889484,
-      "stop" : 1748294889557,
-      "duration" : 73
+      "start" : 1748298805695,
+      "stop" : 1748298805770,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -65,13 +49,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickCartInMenu"
+    "value" : "testLogIn"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +64,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.LoginTest"
   }, {
     "name" : "host",
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2532@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2588@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +91,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ada92b91a13e4482.json",
+  "source" : "5d2fe2b0e3b36d24.json",
   "parameterValues" : [ ]
 }

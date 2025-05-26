@@ -1,24 +1,24 @@
 {
-  "uid" : "2062926fb793bbad",
-  "name" : "testRegisterWithExistingEmail",
-  "fullName" : "tests.RegistrationTest.testRegisterWithExistingEmail",
-  "historyId" : "6e2226819efa252d57084faede30000b",
+  "uid" : "6e2be38f978f3fa9",
+  "name" : "testRegisterWithValidData",
+  "fullName" : "tests.RegistrationTest.testRegisterWithValidData",
+  "historyId" : "8be00ae83cb128889e79ca2dcc9d777b",
   "time" : {
-    "start" : 1748294873436,
-    "stop" : 1748294878711,
-    "duration" : 5275
+    "start" : 1748298777785,
+    "stop" : 1748298781722,
+    "duration" : 3937
   },
-  "description" : "User can't register with existing email",
-  "descriptionHtml" : "<p>User can't register with existing email</p>\n",
+  "description" : "User can register with valid data",
+  "descriptionHtml" : "<p>User can register with valid data</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748294872343,
-      "stop" : 1748294873434,
-      "duration" : 1091
+      "start" : 1748298775062,
+      "stop" : 1748298777783,
+      "duration" : 2721
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748294881429,
-      "stop" : 1748294881503,
-      "duration" : 74
+      "start" : 1748298782983,
+      "stop" : 1748298783058,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   }, {
     "name" : "deleteUser",
     "time" : {
-      "start" : 1748294878713,
-      "stop" : 1748294881428,
-      "duration" : 2715
+      "start" : 1748298781723,
+      "stop" : 1748298782982,
+      "duration" : 1259
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRegisterWithExistingEmail"
+    "value" : "testRegisterWithValidData"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -86,7 +86,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2532@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2588@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2062926fb793bbad.json",
+  "source" : "6e2be38f978f3fa9.json",
   "parameterValues" : [ ]
 }
