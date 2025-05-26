@@ -1,12 +1,12 @@
 {
-  "uid" : "525b30b675f9212a",
+  "uid" : "89ba69a8d864160",
   "name" : "testRegisterWithExistingEmail",
   "fullName" : "tests.RegistrationTest.testRegisterWithExistingEmail",
   "historyId" : "6e2226819efa252d57084faede30000b",
   "time" : {
-    "start" : 1748293450332,
-    "stop" : 1748293455725,
-    "duration" : 5393
+    "start" : 1748294208251,
+    "stop" : 1748294214551,
+    "duration" : 6300
   },
   "description" : "User can't register with existing email",
   "descriptionHtml" : "<p>User can't register with existing email</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748293449219,
-      "stop" : 1748293450330,
-      "duration" : 1111
+      "start" : 1748294203533,
+      "stop" : 1748294208249,
+      "duration" : 4716
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748293458548,
-      "stop" : 1748293458623,
-      "duration" : 75
+      "start" : 1748294217384,
+      "stop" : 1748294217464,
+      "duration" : 80
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   }, {
     "name" : "deleteUser",
     "time" : {
-      "start" : 1748293455727,
-      "stop" : 1748293458547,
-      "duration" : 2820
+      "start" : 1748294214554,
+      "stop" : 1748294217382,
+      "duration" : 2828
     },
     "description" : "",
     "status" : "passed",
@@ -86,7 +86,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2531@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2529@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "525b30b675f9212a.json",
+  "source" : "89ba69a8d864160.json",
   "parameterValues" : [ ]
 }

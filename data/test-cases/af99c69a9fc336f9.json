@@ -1,24 +1,24 @@
 {
-  "uid" : "47e45d11f3887db6",
-  "name" : "testClickCartInMenu",
-  "fullName" : "tests.HomePageTest.testClickCartInMenu",
-  "historyId" : "aa35b861195015e30e18f1a30dd66b81",
+  "uid" : "af99c69a9fc336f9",
+  "name" : "testClickLoginMenu",
+  "fullName" : "tests.HomePageTest.testClickLoginMenu",
+  "historyId" : "4606f1943defddaf89ddd3ac836346d6",
   "time" : {
-    "start" : 1748293465771,
-    "stop" : 1748293466219,
-    "duration" : 448
+    "start" : 1748294229638,
+    "stop" : 1748294230316,
+    "duration" : 678
   },
-  "description" : "Check that the Cart page opens after clicking Cart in the menu",
-  "descriptionHtml" : "<p>Check that the Cart page opens after clicking Cart in the menu</p>\n",
+  "description" : "Check that the Sign Up button appears after clicking Signup/Login in the menu",
+  "descriptionHtml" : "<p>Check that the Sign Up button appears after clicking Signup/Login in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748293464686,
-      "stop" : 1748293465767,
-      "duration" : 1081
+      "start" : 1748294228246,
+      "stop" : 1748294229631,
+      "duration" : 1385
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "initPage",
     "time" : {
-      "start" : 1748293465768,
-      "stop" : 1748293465769,
-      "duration" : 1
+      "start" : 1748294229636,
+      "stop" : 1748294229636,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748293466220,
-      "stop" : 1748293466294,
-      "duration" : 74
+      "start" : 1748294230318,
+      "stop" : 1748294230393,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickCartInMenu"
+    "value" : "testClickLoginMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -86,7 +86,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2531@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2529@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "47e45d11f3887db6.json",
+  "source" : "af99c69a9fc336f9.json",
   "parameterValues" : [ ]
 }

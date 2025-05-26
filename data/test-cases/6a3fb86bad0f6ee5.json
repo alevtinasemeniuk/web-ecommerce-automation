@@ -1,24 +1,24 @@
 {
-  "uid" : "5fac11457bb457cc",
-  "name" : "testLogIn",
-  "fullName" : "tests.LoginTest.testLogIn",
-  "historyId" : "11bc328e90084016ed856cbcf44185ce",
+  "uid" : "6a3fb86bad0f6ee5",
+  "name" : "testLoginWithEmptyFields",
+  "fullName" : "tests.LoginTest.testLoginWithEmptyFields",
+  "historyId" : "ab48c8ab261f1c8f2f830b2761908647",
   "time" : {
-    "start" : 1748293476346,
-    "stop" : 1748293482128,
-    "duration" : 5782
+    "start" : 1748294246314,
+    "stop" : 1748294251660,
+    "duration" : 5346
   },
-  "description" : "User can log in with valid email and password",
-  "descriptionHtml" : "<p>User can log in with valid email and password</p>\n",
+  "description" : "User cannot log in with empty fields",
+  "descriptionHtml" : "<p>User cannot log in with empty fields</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748293475309,
-      "stop" : 1748293476344,
-      "duration" : 1035
+      "start" : 1748294244844,
+      "stop" : 1748294246312,
+      "duration" : 1468
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748293482129,
-      "stop" : 1748293482202,
-      "duration" : 73
+      "start" : 1748294251661,
+      "stop" : 1748294251747,
+      "duration" : 86
     },
     "description" : "",
     "status" : "passed",
@@ -55,7 +55,7 @@
     "value" : "tests.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testLogIn"
+    "value" : "testLoginWithEmptyFields"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -70,7 +70,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2531@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2529@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -91,6 +91,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5fac11457bb457cc.json",
+  "source" : "6a3fb86bad0f6ee5.json",
   "parameterValues" : [ ]
 }

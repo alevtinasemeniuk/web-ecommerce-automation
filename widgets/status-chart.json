@@ -1,100 +1,100 @@
 [ {
-  "uid" : "31ba4e7dff114144",
-  "name" : "testRedirectToCreateAccountPage",
-  "time" : {
-    "start" : 1748293446748,
-    "stop" : 1748293448295,
-    "duration" : 1547
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "42b4c208d78c2f9c",
+  "uid" : "fb34faa23144c964",
   "name" : "testClickProductsInMenu",
   "time" : {
-    "start" : 1748293470880,
-    "stop" : 1748293471887,
-    "duration" : 1007
+    "start" : 1748294231955,
+    "stop" : 1748294232927,
+    "duration" : 972
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "234a33c37c93ac08",
-  "name" : "testLoginWithEmptyFields",
-  "time" : {
-    "start" : 1748293483282,
-    "stop" : 1748293488088,
-    "duration" : 4806
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "16c0b22b74e682ef",
-  "name" : "testClickContactUsMenu",
-  "time" : {
-    "start" : 1748293467354,
-    "stop" : 1748293467919,
-    "duration" : 565
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e1305de9fda58e2",
-  "name" : "testClickLoginMenu",
-  "time" : {
-    "start" : 1748293469037,
-    "stop" : 1748293469583,
-    "duration" : 546
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "47e45d11f3887db6",
+  "uid" : "7f4c83f657ef8824",
   "name" : "testClickCartInMenu",
   "time" : {
-    "start" : 1748293465771,
-    "stop" : 1748293466219,
-    "duration" : 448
+    "start" : 1748294225709,
+    "stop" : 1748294226280,
+    "duration" : 571
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9b5160910310e115",
-  "name" : "testRegisterWithValidData",
+  "uid" : "af99c69a9fc336f9",
+  "name" : "testClickLoginMenu",
   "time" : {
-    "start" : 1748293459771,
-    "stop" : 1748293463242,
-    "duration" : 3471
+    "start" : 1748294229638,
+    "stop" : 1748294230316,
+    "duration" : 678
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1432735c90d962c7",
+  "uid" : "8327a7ac009a153e",
+  "name" : "testRedirectToCreateAccountPage",
+  "time" : {
+    "start" : 1748294201022,
+    "stop" : 1748294202639,
+    "duration" : 1617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "371f4110609b90fb",
+  "name" : "testClickContactUsMenu",
+  "time" : {
+    "start" : 1748294227642,
+    "stop" : 1748294228169,
+    "duration" : 527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a3fb86bad0f6ee5",
+  "name" : "testLoginWithEmptyFields",
+  "time" : {
+    "start" : 1748294246314,
+    "stop" : 1748294251660,
+    "duration" : 5346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f18dff785f369f79",
   "name" : "testClickVideoTutorialsMenu",
   "time" : {
-    "start" : 1748293473046,
-    "stop" : 1748293475226,
-    "duration" : 2180
+    "start" : 1748294234524,
+    "stop" : 1748294236807,
+    "duration" : 2283
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5fac11457bb457cc",
-  "name" : "testLogIn",
-  "time" : {
-    "start" : 1748293476346,
-    "stop" : 1748293482128,
-    "duration" : 5782
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "525b30b675f9212a",
+  "uid" : "89ba69a8d864160",
   "name" : "testRegisterWithExistingEmail",
   "time" : {
-    "start" : 1748293450332,
-    "stop" : 1748293455725,
-    "duration" : 5393
+    "start" : 1748294208251,
+    "stop" : 1748294214551,
+    "duration" : 6300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be8eca075e21bf41",
+  "name" : "testLogIn",
+  "time" : {
+    "start" : 1748294238223,
+    "stop" : 1748294244764,
+    "duration" : 6541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1809b650d083766d",
+  "name" : "testRegisterWithValidData",
+  "time" : {
+    "start" : 1748294218794,
+    "stop" : 1748294222823,
+    "duration" : 4029
   },
   "status" : "passed",
   "severity" : "normal"
