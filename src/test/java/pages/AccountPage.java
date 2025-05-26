@@ -17,6 +17,9 @@ public class AccountPage extends BasePage {
     @FindBy(css = "[data-qa='continue-button']")
     private WebElement continueButton;
 
+    @FindBy(xpath = "//a[contains(text(), 'Logged in as')]/b")
+    private WebElement userLoggedInMarker;
+
 
 
     public boolean isAccountCreated() {
@@ -26,6 +29,10 @@ public class AccountPage extends BasePage {
     public HomePage clickContinueButton() {
         click(continueButton);
         return new HomePage(driver);
+    }
+
+    public String getUserNameFromLoggedInMarker() {
+        return getText(userLoggedInMarker);
     }
 
 
