@@ -1,0 +1,101 @@
+[ {
+  "uid" : "31ba4e7dff114144",
+  "name" : "testRedirectToCreateAccountPage",
+  "time" : {
+    "start" : 1748293446748,
+    "stop" : 1748293448295,
+    "duration" : 1547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42b4c208d78c2f9c",
+  "name" : "testClickProductsInMenu",
+  "time" : {
+    "start" : 1748293470880,
+    "stop" : 1748293471887,
+    "duration" : 1007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "234a33c37c93ac08",
+  "name" : "testLoginWithEmptyFields",
+  "time" : {
+    "start" : 1748293483282,
+    "stop" : 1748293488088,
+    "duration" : 4806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16c0b22b74e682ef",
+  "name" : "testClickContactUsMenu",
+  "time" : {
+    "start" : 1748293467354,
+    "stop" : 1748293467919,
+    "duration" : 565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e1305de9fda58e2",
+  "name" : "testClickLoginMenu",
+  "time" : {
+    "start" : 1748293469037,
+    "stop" : 1748293469583,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47e45d11f3887db6",
+  "name" : "testClickCartInMenu",
+  "time" : {
+    "start" : 1748293465771,
+    "stop" : 1748293466219,
+    "duration" : 448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b5160910310e115",
+  "name" : "testRegisterWithValidData",
+  "time" : {
+    "start" : 1748293459771,
+    "stop" : 1748293463242,
+    "duration" : 3471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1432735c90d962c7",
+  "name" : "testClickVideoTutorialsMenu",
+  "time" : {
+    "start" : 1748293473046,
+    "stop" : 1748293475226,
+    "duration" : 2180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fac11457bb457cc",
+  "name" : "testLogIn",
+  "time" : {
+    "start" : 1748293476346,
+    "stop" : 1748293482128,
+    "duration" : 5782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "525b30b675f9212a",
+  "name" : "testRegisterWithExistingEmail",
+  "time" : {
+    "start" : 1748293450332,
+    "stop" : 1748293455725,
+    "duration" : 5393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

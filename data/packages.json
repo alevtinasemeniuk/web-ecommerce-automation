@@ -1,0 +1,151 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "RegistrationTest",
+      "children" : [ {
+        "name" : "testRedirectToCreateAccountPage",
+        "uid" : "31ba4e7dff114144",
+        "parentUid" : "cdd35bb865d7ddc9bad61116c2000e07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293446748,
+          "stop" : 1748293448295,
+          "duration" : 1547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testRegisterWithExistingEmail",
+        "uid" : "525b30b675f9212a",
+        "parentUid" : "cdd35bb865d7ddc9bad61116c2000e07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293450332,
+          "stop" : 1748293455725,
+          "duration" : 5393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testRegisterWithValidData",
+        "uid" : "9b5160910310e115",
+        "parentUid" : "cdd35bb865d7ddc9bad61116c2000e07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293459771,
+          "stop" : 1748293463242,
+          "duration" : 3471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cdd35bb865d7ddc9bad61116c2000e07"
+    }, {
+      "name" : "HomePageTest",
+      "children" : [ {
+        "name" : "testClickCartInMenu",
+        "uid" : "47e45d11f3887db6",
+        "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293465771,
+          "stop" : 1748293466219,
+          "duration" : 448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickContactUsMenu",
+        "uid" : "16c0b22b74e682ef",
+        "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293467354,
+          "stop" : 1748293467919,
+          "duration" : 565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickLoginMenu",
+        "uid" : "5e1305de9fda58e2",
+        "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293469037,
+          "stop" : 1748293469583,
+          "duration" : 546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickProductsInMenu",
+        "uid" : "42b4c208d78c2f9c",
+        "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293470880,
+          "stop" : 1748293471887,
+          "duration" : 1007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testClickVideoTutorialsMenu",
+        "uid" : "1432735c90d962c7",
+        "parentUid" : "7334c7ce9c981bb5b1d28b603495089a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293473046,
+          "stop" : 1748293475226,
+          "duration" : 2180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7334c7ce9c981bb5b1d28b603495089a"
+    }, {
+      "name" : "LoginTest",
+      "children" : [ {
+        "name" : "testLogIn",
+        "uid" : "5fac11457bb457cc",
+        "parentUid" : "7e9d293a8b53daca8dc3b4f7e5dac786",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293476346,
+          "stop" : 1748293482128,
+          "duration" : 5782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testLoginWithEmptyFields",
+        "uid" : "234a33c37c93ac08",
+        "parentUid" : "7e9d293a8b53daca8dc3b4f7e5dac786",
+        "status" : "passed",
+        "time" : {
+          "start" : 1748293483282,
+          "stop" : 1748293488088,
+          "duration" : 4806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e9d293a8b53daca8dc3b4f7e5dac786"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}
