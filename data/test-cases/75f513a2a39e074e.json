@@ -1,24 +1,40 @@
 {
-  "uid" : "8327a7ac009a153e",
-  "name" : "testRedirectToCreateAccountPage",
-  "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
-  "historyId" : "865e71b3679940669665db25dff3e695",
+  "uid" : "75f513a2a39e074e",
+  "name" : "testClickVideoTutorialsMenu",
+  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
+  "historyId" : "72758180bfba04bc166a8f06214d9cb6",
   "time" : {
-    "start" : 1748294201022,
-    "stop" : 1748294202639,
-    "duration" : 1617
+    "start" : 1748294895752,
+    "stop" : 1748294897970,
+    "duration" : 2218
   },
-  "description" : "Redirect to Create Account Page after signup click",
-  "descriptionHtml" : "<p>Redirect to Create Account Page after signup click</p>\n",
+  "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
+  "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748294190581,
-      "stop" : 1748294200952,
-      "duration" : 10371
+      "start" : 1748294894772,
+      "stop" : 1748294895749,
+      "duration" : 977
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1748294895750,
+      "stop" : 1748294895751,
+      "duration" : 1
     },
     "description" : "",
     "status" : "passed",
@@ -31,27 +47,11 @@
     "hasContent" : false
   } ],
   "afterStages" : [ {
-    "name" : "deleteUser",
-    "time" : {
-      "start" : 1748294202649,
-      "stop" : 1748294203446,
-      "duration" : 797
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748294203449,
-      "stop" : 1748294203531,
-      "duration" : 82
+      "start" : 1748294897971,
+      "stop" : 1748294898046,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRedirectToCreateAccountPage"
+    "value" : "testClickVideoTutorialsMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.RegistrationTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2529@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2532@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8327a7ac009a153e.json",
+  "source" : "75f513a2a39e074e.json",
   "parameterValues" : [ ]
 }
