@@ -71,9 +71,9 @@ public class LoginPage extends BasePage {
         click(loginButton);
     }
 
-    public HomePage clickLoginButton() {
+    public AccountPage clickLoginButton() {
         click(loginButton);
-        return new HomePage(driver);
+        return new AccountPage(driver);
     }
 
     public String getErrorMessageUserExists() {
