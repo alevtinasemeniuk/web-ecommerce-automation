@@ -32,6 +32,8 @@ public class LoginPage extends BasePage {
     private WebElement errorMessageUserExists;
 
 
+
+
     public boolean isOnLoginPage() {
         return isDisplayed(signUpButton);
     }
@@ -79,6 +81,7 @@ public class LoginPage extends BasePage {
     public String getErrorMessageUserExists() {
         return getText(errorMessageUserExists);
     }
+
 
 
 

@@ -20,6 +20,12 @@ public class AccountPage extends BasePage {
     @FindBy(xpath = "//a[contains(text(), 'Logged in as')]/b")
     private WebElement userLoggedInMarker;
 
+    @FindBy(css = "a[href='/logout']")
+    private WebElement logoutButton;
+
+    @FindBy(xpath = "//h2[text()='Login to your account']")
+    private WebElement loginAreaTitle;
+
 
 
     public boolean isAccountCreated() {
@@ -34,6 +40,13 @@ public class AccountPage extends BasePage {
     public String getUserNameFromLoggedInMarker() {
         return getText(userLoggedInMarker);
     }
+
+    public String getLoginAreaTitle() {
+        return getText(loginAreaTitle);
+    }
+
+
+
 
 
 
