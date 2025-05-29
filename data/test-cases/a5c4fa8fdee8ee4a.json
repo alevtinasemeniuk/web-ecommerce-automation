@@ -1,24 +1,24 @@
 {
-  "uid" : "645e2b5982f3f162",
-  "name" : "testRedirectToCreateAccountPage",
-  "fullName" : "tests.RegistrationTest.testRedirectToCreateAccountPage",
-  "historyId" : "865e71b3679940669665db25dff3e695",
+  "uid" : "a5c4fa8fdee8ee4a",
+  "name" : "testRegisterWithExistingEmail",
+  "fullName" : "tests.RegistrationTest.testRegisterWithExistingEmail",
+  "historyId" : "6e2226819efa252d57084faede30000b",
   "time" : {
-    "start" : 1748298762469,
-    "stop" : 1748298764017,
-    "duration" : 1548
+    "start" : 1748479279467,
+    "stop" : 1748479285893,
+    "duration" : 6426
   },
-  "description" : "Redirect to Create Account Page after signup click",
-  "descriptionHtml" : "<p>Redirect to Create Account Page after signup click</p>\n",
+  "description" : "User can't register with existing email",
+  "descriptionHtml" : "<p>User can't register with existing email</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748298754509,
-      "stop" : 1748298762410,
-      "duration" : 7901
+      "start" : 1748479278348,
+      "stop" : 1748479279465,
+      "duration" : 1117
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748298764714,
-      "stop" : 1748298764790,
-      "duration" : 76
+      "start" : 1748479288348,
+      "stop" : 1748479288422,
+      "duration" : 74
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   }, {
     "name" : "deleteUser",
     "time" : {
-      "start" : 1748298764025,
-      "stop" : 1748298764712,
-      "duration" : 687
+      "start" : 1748479285894,
+      "stop" : 1748479288347,
+      "duration" : 2453
     },
     "description" : "",
     "status" : "passed",
@@ -71,7 +71,7 @@
     "value" : "tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "testRedirectToCreateAccountPage"
+    "value" : "testRegisterWithExistingEmail"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -86,7 +86,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2588@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2581@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "645e2b5982f3f162.json",
+  "source" : "a5c4fa8fdee8ee4a.json",
   "parameterValues" : [ ]
 }

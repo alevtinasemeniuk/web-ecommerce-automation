@@ -1,24 +1,40 @@
 {
-  "uid" : "90dc36b861c2ed36",
-  "name" : "testLoginWithEmptyFields",
-  "fullName" : "tests.LoginTest.testLoginWithEmptyFields",
-  "historyId" : "ab48c8ab261f1c8f2f830b2761908647",
+  "uid" : "163b57e04f5f2c1f",
+  "name" : "testClickProductsInMenu",
+  "fullName" : "tests.HomePageTest.testClickProductsInMenu",
+  "historyId" : "77b08c721336f0081c00ebf007641079",
   "time" : {
-    "start" : 1748298807404,
-    "stop" : 1748298812415,
-    "duration" : 5011
+    "start" : 1748479301006,
+    "stop" : 1748479301908,
+    "duration" : 902
   },
-  "description" : "User cannot log in with empty fields",
-  "descriptionHtml" : "<p>User cannot log in with empty fields</p>\n",
+  "description" : "Check that the PLP opens after clicking Products in the menu",
+  "descriptionHtml" : "<p>Check that the PLP opens after clicking Products in the menu</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748298805771,
-      "stop" : 1748298807402,
-      "duration" : 1631
+      "start" : 1748479299754,
+      "stop" : 1748479301003,
+      "duration" : 1249
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initPage",
+    "time" : {
+      "start" : 1748479301004,
+      "stop" : 1748479301005,
+      "duration" : 1
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +49,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748298812416,
-      "stop" : 1748298812495,
-      "duration" : 79
+      "start" : 1748479301909,
+      "stop" : 1748479301982,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
@@ -49,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.LoginTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.LoginTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "testMethod",
-    "value" : "testLoginWithEmptyFields"
+    "value" : "testClickProductsInMenu"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -64,13 +80,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.LoginTest"
+    "value" : "tests.HomePageTest"
   }, {
     "name" : "host",
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2588@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2581@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -91,6 +107,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "90dc36b861c2ed36.json",
+  "source" : "163b57e04f5f2c1f.json",
   "parameterValues" : [ ]
 }

@@ -1,24 +1,24 @@
 {
-  "uid" : "5d2fe2b0e3b36d24",
-  "name" : "testLogIn",
-  "fullName" : "tests.LoginTest.testLogIn",
-  "historyId" : "11bc328e90084016ed856cbcf44185ce",
+  "uid" : "8759bad5042ea30f",
+  "name" : "testLoginWithEmptyFields",
+  "fullName" : "tests.LoginTest.testLoginWithEmptyFields",
+  "historyId" : "ab48c8ab261f1c8f2f830b2761908647",
   "time" : {
-    "start" : 1748298799538,
-    "stop" : 1748298805694,
-    "duration" : 6156
+    "start" : 1748479323348,
+    "stop" : 1748479328523,
+    "duration" : 5175
   },
-  "description" : "User can log in with valid email and password",
-  "descriptionHtml" : "<p>User can log in with valid email and password</p>\n",
+  "description" : "User cannot log in with empty fields",
+  "descriptionHtml" : "<p>User cannot log in with empty fields</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748298797881,
-      "stop" : 1748298799536,
-      "duration" : 1655
+      "start" : 1748479322196,
+      "stop" : 1748479323346,
+      "duration" : 1150
     },
     "description" : "",
     "status" : "passed",
@@ -33,8 +33,8 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748298805695,
-      "stop" : 1748298805770,
+      "start" : 1748479328524,
+      "stop" : 1748479328599,
       "duration" : 75
     },
     "description" : "",
@@ -55,7 +55,7 @@
     "value" : "tests.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testLogIn"
+    "value" : "testLoginWithEmptyFields"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -70,7 +70,7 @@
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2588@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2581@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -91,6 +91,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5d2fe2b0e3b36d24.json",
+  "source" : "8759bad5042ea30f.json",
   "parameterValues" : [ ]
 }

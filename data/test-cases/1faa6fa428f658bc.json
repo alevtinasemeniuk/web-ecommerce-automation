@@ -1,40 +1,24 @@
 {
-  "uid" : "6a859a6bf5cb7080",
-  "name" : "testClickVideoTutorialsMenu",
-  "fullName" : "tests.HomePageTest.testClickVideoTutorialsMenu",
-  "historyId" : "72758180bfba04bc166a8f06214d9cb6",
+  "uid" : "1faa6fa428f658bc",
+  "name" : "testLogOut",
+  "fullName" : "tests.LoginTest.testLogOut",
+  "historyId" : "8c47789d54ec8a67e475a714b6aff529",
   "time" : {
-    "start" : 1748298795344,
-    "stop" : 1748298797801,
-    "duration" : 2457
+    "start" : 1748479315487,
+    "stop" : 1748479322120,
+    "duration" : 6633
   },
-  "description" : "Check that the YouTube page opens after clicking Video Tutorials in the menu",
-  "descriptionHtml" : "<p>Check that the YouTube page opens after clicking Video Tutorials in the menu</p>\n",
+  "description" : "User can successfully log out",
+  "descriptionHtml" : "<p>User can successfully log out</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1748298793849,
-      "stop" : 1748298795342,
-      "duration" : 1493
-    },
-    "description" : "",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "initPage",
-    "time" : {
-      "start" : 1748298795342,
-      "stop" : 1748298795343,
-      "duration" : 1
+      "start" : 1748479314441,
+      "stop" : 1748479315485,
+      "duration" : 1044
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1748298797802,
-      "stop" : 1748298797880,
-      "duration" : 78
+      "start" : 1748479322121,
+      "stop" : 1748479322194,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
@@ -65,13 +49,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "testClickVideoTutorialsMenu"
+    "value" : "testLogOut"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -80,13 +64,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "tests.HomePageTest"
+    "value" : "tests.LoginTest"
   }, {
     "name" : "host",
     "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2588@pkrvmf6wy0o8zjz.main(1)"
+    "value" : "2581@pkrvmf6wy0o8zjz.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -107,6 +91,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6a859a6bf5cb7080.json",
+  "source" : "1faa6fa428f658bc.json",
   "parameterValues" : [ ]
 }
