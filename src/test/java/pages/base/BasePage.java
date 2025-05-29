@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.AccountPage;
 import pages.DeleteAccountPage;
 import pages.HomePage;
 import pages.LoginPage;
@@ -87,9 +88,9 @@ public abstract class BasePage {
         return new HomePage(driver);
     }
 
-    protected LoginPage clickLogoutButton() {
+    public AccountPage clickLogoutButton() {
         click(logoutButton);
-        return new LoginPage(driver);
+        return new AccountPage(driver);
     }
 
     protected String getText(WebElement element) {
